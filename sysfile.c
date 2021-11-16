@@ -123,6 +123,7 @@ sys_dup2(void)
   // 5. Duplicas el oldfd en newfd (como haria dup)
   //    duplicar el puntero
   //    filedup(oldfd)
+  curproc->ofile[newfd] = oldf;
   filedup(oldf);
 
   // 6. return newfd
