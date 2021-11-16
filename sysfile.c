@@ -65,30 +65,6 @@ sys_dup(void)
   filedup(f);
   return fd;
 }
-/* 
-int
-sys_dup2(void)
-{
-  struct file *newf, *oldf;
-  int newfd, oldfd;
-  struct proc *curproc = myproc();
-
-  if(argfd(0, &oldfd, &oldf) < 0)//si el fichero no esta abierto da error
-    return -1;
-
-  //Comprobas si newfd es positivo y menor que NOFILE
-  if(argint(1, &newfd)<0)// no da error como argfd
-    return -1;
-  //comprobar si newfd == oldfd
-  if(old)
-  //comprobar si newfd esta abierto
-  if((newf = curproc->ofile[newfd])!= 0)
-    fileclose(newf);
-
-
-  filedup(oldf);
-  return oldfd;
-} */
 
 int
 sys_dup2(void)
