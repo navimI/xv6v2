@@ -102,6 +102,7 @@ sys_dup2(void)
   curproc->ofile[newfd] = oldf;
   filedup(oldf);
 
+
   // 6. return newfd
   return newfd;
 }
@@ -416,7 +417,7 @@ sys_chdir(void)
   char *path;
   struct inode *ip;
   struct proc *curproc = myproc();
-  
+
   begin_op();
   if(argstr(0, &path) < 0 || (ip = namei(path)) == 0){
     end_op();
