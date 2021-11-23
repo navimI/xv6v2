@@ -181,6 +181,7 @@ UPROGS=\
 	_mkdir\
 	_rm\
 	_dup2test\
+	_exitwait\
 	_sh\
 	_stressfs\
 	_usertests\
