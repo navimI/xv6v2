@@ -1,8 +1,8 @@
 
-bootblock.o:     file format elf32-i386
+bootblock.o:     formato del fichero elf32-i386
 
 
-Disassembly of section .text:
+Desensamblado de la sección .text:
 
 00007c00 <start>:
 # with %cs=0 %ip=7c00.
@@ -216,8 +216,8 @@ outb(ushort port, uchar data)
   waitdisk();
     7cdd:	e8 9c ff ff ff       	call   7c7e <waitdisk>
   asm volatile("cld; rep insl" :
-    7ce2:	b9 80 00 00 00       	mov    $0x80,%ecx
-    7ce7:	8b 7d 08             	mov    0x8(%ebp),%edi
+    7ce2:	8b 7d 08             	mov    0x8(%ebp),%edi
+    7ce5:	b9 80 00 00 00       	mov    $0x80,%ecx
     7cea:	ba f0 01 00 00       	mov    $0x1f0,%edx
     7cef:	fc                   	cld    
     7cf0:	f3 6d                	rep insl (%dx),%es:(%edi)
@@ -329,8 +329,8 @@ readseg(uchar* pa, uint count, uint offset)
     7d84:	8b 7b 0c             	mov    0xc(%ebx),%edi
     readseg(pa, ph->filesz, ph->off);
     7d87:	50                   	push   %eax
-    7d88:	ff 73 04             	push   0x4(%ebx)
-    7d8b:	ff 73 10             	push   0x10(%ebx)
+    7d88:	ff 73 04             	pushl  0x4(%ebx)
+    7d8b:	ff 73 10             	pushl  0x10(%ebx)
     7d8e:	57                   	push   %edi
     7d8f:	e8 62 ff ff ff       	call   7cf6 <readseg>
     if(ph->memsz > ph->filesz)
