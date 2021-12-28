@@ -38,7 +38,7 @@ trap(struct trapframe *tf)
 {
   if(tf->trapno == T_SYSCALL){
     if(myproc()->killed)
-      exit(T_SYSCALL+1);//hay que poner el numero de la excepcion +1
+      exit(T_SYSCALL+1);//hay que poner el numero de la excepcio +1
     myproc()->tf = tf;
     syscall();
     if(myproc()->killed)
