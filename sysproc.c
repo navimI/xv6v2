@@ -45,15 +45,23 @@ int sys_getpid(void)
 
 int sys_sbrk(void)
 {
-  int addr;
+  int newAddr;
+  int oldAddr;
   int n;
 
   if (argint(0, &n) < 0)
     return -1;
-  addr = myproc()->sz;
-  if (growproc(n) < 0)
-    return -1;
-  return addr;
+
+  oldAddr = myproc()->sz;
+  newAddr = myproc()->sz+n;
+
+  if (newAddr < KERNBASE)
+  {
+    if (n>=0){
+      myproc()->sz = newAddr;
+    }else if (growproc(n) < 0) return -1;
+  }
+  return oldAddr;
 }
 
 int sys_sleep(void)

@@ -14,6 +14,8 @@ extern uint vectors[];  // in vectors.S: array of 256 entry pointers
 struct spinlock tickslock;
 uint ticks;
 
+extern int mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm);
+
 void
 tvinit(void)
 {
@@ -77,6 +79,18 @@ trap(struct trapframe *tf)
             cpuid(), tf->cs, tf->eip);
     lapiceoi();
     break;
+  case T_PGFLT:
+    //pagina fisica kalloc
+    //mapear la pagina con mappages
+    //dir vir estaba en rc2()
+    {
+      char* mem = kalloc();
+      mappages(myproc()->pgdir, (char*)PGROUNDDOWN(rcr2()),
+              PGSIZE,
+              V2P(mem),
+              PTE_W|PTE_U);
+    }
+    break;
 
   //PAGEBREAK: 13
   default:
@@ -91,6 +105,22 @@ trap(struct trapframe *tf)
             "eip 0x%x addr 0x%x--kill proc\n",
             myproc()->pid, myproc()->name, tf->trapno,
             tf->err, cpuid(), tf->eip, rcr2());
+
+    //mapear direccion
+    //direccion virtual a mapear es rcr2()
+    //tenemos que hacer PGROUNDDOWN(rcr2())
+    //reservar una pagina fisica de memoria (kalloc)
+    //mapear esa dir. vir. a esa pagina fisica (con mappages)
+
+    /*
+    char* mem = kalloc();
+
+    mappages(myproc()->pgdir,                   //tab. paginas
+              (char*)PGROUNDDOWN(rcr2()),       //dir. vir.
+              PGSIZE,                           //tamaño -> 1 pag
+              V2P(mem),                         //dir. fisica
+              PTE_W|PTE_U);
+    */
     myproc()->killed = 1;
   }
 
