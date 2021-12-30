@@ -1,8 +1,8 @@
 
-_usertests:     formato del fichero elf32-i386
+_usertests:     file format elf32-i386
 
 
-Desensamblado de la sección .text:
+Disassembly of section .text:
 
 00000000 <.text>:
        0:	f3 0f 1e fb          	endbr32 
@@ -10,8 +10,8 @@ Desensamblado de la sección .text:
        5:	89 e5                	mov    %esp,%ebp
        7:	83 ec 10             	sub    $0x10,%esp
        a:	68 1c 42 00 00       	push   $0x421c
-       f:	ff 35 b8 61 00 00    	pushl  0x61b8
-      15:	e8 b1 3e 00 00       	call   0x3ecb
+       f:	ff 35 10 62 00 00    	push   0x6210
+      15:	e8 b5 3e 00 00       	call   0x3ecf
       1a:	c7 04 24 af 41 00 00 	movl   $0x41af,(%esp)
       21:	e8 bc 3d 00 00       	call   0x3de2
       26:	83 c4 10             	add    $0x10,%esp
@@ -37,33 +37,33 @@ Desensamblado de la sección .text:
       67:	78 75                	js     0xde
       69:	83 ec 08             	sub    $0x8,%esp
       6c:	68 54 42 00 00       	push   $0x4254
-      71:	ff 35 b8 61 00 00    	pushl  0x61b8
-      77:	e8 4f 3e 00 00       	call   0x3ecb
+      71:	ff 35 10 62 00 00    	push   0x6210
+      77:	e8 53 3e 00 00       	call   0x3ecf
       7c:	83 c4 10             	add    $0x10,%esp
       7f:	c9                   	leave  
       80:	c3                   	ret    
       81:	83 ec 08             	sub    $0x8,%esp
       84:	68 88 41 00 00       	push   $0x4188
-      89:	ff 35 b8 61 00 00    	pushl  0x61b8
-      8f:	e8 37 3e 00 00       	call   0x3ecb
+      89:	ff 35 10 62 00 00    	push   0x6210
+      8f:	e8 3b 3e 00 00       	call   0x3ecf
       94:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
       9b:	e8 da 3c 00 00       	call   0x3d7a
       a0:	83 ec 08             	sub    $0x8,%esp
       a3:	68 96 41 00 00       	push   $0x4196
-      a8:	ff 35 b8 61 00 00    	pushl  0x61b8
-      ae:	e8 18 3e 00 00       	call   0x3ecb
+      a8:	ff 35 10 62 00 00    	push   0x6210
+      ae:	e8 1c 3e 00 00       	call   0x3ecf
       b3:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
       ba:	e8 bb 3c 00 00       	call   0x3d7a
       bf:	83 ec 08             	sub    $0x8,%esp
       c2:	68 b7 41 00 00       	push   $0x41b7
-      c7:	ff 35 b8 61 00 00    	pushl  0x61b8
-      cd:	e8 f9 3d 00 00       	call   0x3ecb
+      c7:	ff 35 10 62 00 00    	push   0x6210
+      cd:	e8 fd 3d 00 00       	call   0x3ecf
       d2:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
       d9:	e8 9c 3c 00 00       	call   0x3d7a
       de:	83 ec 08             	sub    $0x8,%esp
       e1:	68 d3 41 00 00       	push   $0x41d3
-      e6:	ff 35 b8 61 00 00    	pushl  0x61b8
-      ec:	e8 da 3d 00 00       	call   0x3ecb
+      e6:	ff 35 10 62 00 00    	push   0x6210
+      ec:	e8 de 3d 00 00       	call   0x3ecf
       f1:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
       f8:	e8 7d 3c 00 00       	call   0x3d7a
       fd:	f3 0f 1e fb          	endbr32 
@@ -71,8 +71,8 @@ Desensamblado de la sección .text:
      102:	89 e5                	mov    %esp,%ebp
      104:	83 ec 10             	sub    $0x10,%esp
      107:	68 e3 41 00 00       	push   $0x41e3
-     10c:	ff 35 b8 61 00 00    	pushl  0x61b8
-     112:	e8 b4 3d 00 00       	call   0x3ecb
+     10c:	ff 35 10 62 00 00    	push   0x6210
+     112:	e8 b8 3d 00 00       	call   0x3ecf
      117:	e8 56 3c 00 00       	call   0x3d72
      11c:	83 c4 10             	add    $0x10,%esp
      11f:	85 c0                	test   %eax,%eax
@@ -101,26 +101,26 @@ Desensamblado de la sección .text:
      16a:	e8 0b 3c 00 00       	call   0x3d7a
      16f:	83 ec 08             	sub    $0x8,%esp
      172:	68 c9 50 00 00       	push   $0x50c9
-     177:	ff 35 b8 61 00 00    	pushl  0x61b8
-     17d:	e8 49 3d 00 00       	call   0x3ecb
+     177:	ff 35 10 62 00 00    	push   0x6210
+     17d:	e8 4d 3d 00 00       	call   0x3ecf
      182:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      189:	e8 ec 3b 00 00       	call   0x3d7a
      18e:	83 ec 08             	sub    $0x8,%esp
      191:	68 88 41 00 00       	push   $0x4188
-     196:	ff 35 b8 61 00 00    	pushl  0x61b8
-     19c:	e8 2a 3d 00 00       	call   0x3ecb
+     196:	ff 35 10 62 00 00    	push   0x6210
+     19c:	e8 2e 3d 00 00       	call   0x3ecf
      1a1:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      1a8:	e8 cd 3b 00 00       	call   0x3d7a
      1ad:	83 ec 08             	sub    $0x8,%esp
      1b0:	68 f2 41 00 00       	push   $0x41f2
-     1b5:	ff 35 b8 61 00 00    	pushl  0x61b8
-     1bb:	e8 0b 3d 00 00       	call   0x3ecb
+     1b5:	ff 35 10 62 00 00    	push   0x6210
+     1bb:	e8 0f 3d 00 00       	call   0x3ecf
      1c0:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      1c7:	e8 ae 3b 00 00       	call   0x3d7a
      1cc:	83 ec 08             	sub    $0x8,%esp
      1cf:	68 b7 41 00 00       	push   $0x41b7
-     1d4:	ff 35 b8 61 00 00    	pushl  0x61b8
-     1da:	e8 ec 3c 00 00       	call   0x3ecb
+     1d4:	ff 35 10 62 00 00    	push   0x6210
+     1da:	e8 f0 3c 00 00       	call   0x3ecf
      1df:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      1e6:	e8 8f 3b 00 00       	call   0x3d7a
      1eb:	83 ec 0c             	sub    $0xc,%esp
@@ -128,8 +128,8 @@ Desensamblado de la sección .text:
      1f0:	e8 8d 3b 00 00       	call   0x3d82
      1f5:	83 c4 08             	add    $0x8,%esp
      1f8:	68 06 42 00 00       	push   $0x4206
-     1fd:	ff 35 b8 61 00 00    	pushl  0x61b8
-     203:	e8 c3 3c 00 00       	call   0x3ecb
+     1fd:	ff 35 10 62 00 00    	push   0x6210
+     203:	e8 c7 3c 00 00       	call   0x3ecf
      208:	83 c4 10             	add    $0x10,%esp
      20b:	c9                   	leave  
      20c:	c3                   	ret    
@@ -138,8 +138,8 @@ Desensamblado de la sección .text:
      212:	89 e5                	mov    %esp,%ebp
      214:	83 ec 10             	sub    $0x10,%esp
      217:	68 18 42 00 00       	push   $0x4218
-     21c:	ff 35 b8 61 00 00    	pushl  0x61b8
-     222:	e8 a4 3c 00 00       	call   0x3ecb
+     21c:	ff 35 10 62 00 00    	push   0x6210
+     222:	e8 a8 3c 00 00       	call   0x3ecf
      227:	c7 04 24 27 42 00 00 	movl   $0x4227,(%esp)
      22e:	e8 af 3b 00 00       	call   0x3de2
      233:	83 c4 10             	add    $0x10,%esp
@@ -158,20 +158,20 @@ Desensamblado de la sección .text:
      259:	78 5d                	js     0x2b8
      25b:	83 ec 08             	sub    $0x8,%esp
      25e:	68 ac 51 00 00       	push   $0x51ac
-     263:	ff 35 b8 61 00 00    	pushl  0x61b8
-     269:	e8 5d 3c 00 00       	call   0x3ecb
+     263:	ff 35 10 62 00 00    	push   0x6210
+     269:	e8 61 3c 00 00       	call   0x3ecf
      26e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      275:	e8 00 3b 00 00       	call   0x3d7a
      27a:	83 ec 08             	sub    $0x8,%esp
      27d:	68 2d 42 00 00       	push   $0x422d
-     282:	ff 35 b8 61 00 00    	pushl  0x61b8
-     288:	e8 3e 3c 00 00       	call   0x3ecb
+     282:	ff 35 10 62 00 00    	push   0x6210
+     288:	e8 42 3c 00 00       	call   0x3ecf
      28d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      294:	e8 e1 3a 00 00       	call   0x3d7a
      299:	83 ec 08             	sub    $0x8,%esp
      29c:	68 c9 50 00 00       	push   $0x50c9
-     2a1:	ff 35 b8 61 00 00    	pushl  0x61b8
-     2a7:	e8 1f 3c 00 00       	call   0x3ecb
+     2a1:	ff 35 10 62 00 00    	push   0x6210
+     2a7:	e8 23 3c 00 00       	call   0x3ecf
      2ac:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      2b3:	e8 c2 3a 00 00       	call   0x3d7a
      2b8:	83 ec 0c             	sub    $0xc,%esp
@@ -190,15 +190,15 @@ Desensamblado de la sección .text:
      2e4:	e8 99 3a 00 00       	call   0x3d82
      2e9:	83 c4 08             	add    $0x8,%esp
      2ec:	68 50 42 00 00       	push   $0x4250
-     2f1:	ff 35 b8 61 00 00    	pushl  0x61b8
-     2f7:	e8 cf 3b 00 00       	call   0x3ecb
+     2f1:	ff 35 10 62 00 00    	push   0x6210
+     2f7:	e8 d3 3b 00 00       	call   0x3ecf
      2fc:	83 c4 10             	add    $0x10,%esp
      2ff:	c9                   	leave  
      300:	c3                   	ret    
      301:	83 ec 08             	sub    $0x8,%esp
      304:	68 41 42 00 00       	push   $0x4241
-     309:	ff 35 b8 61 00 00    	pushl  0x61b8
-     30f:	e8 b7 3b 00 00       	call   0x3ecb
+     309:	ff 35 10 62 00 00    	push   0x6210
+     30f:	e8 bb 3b 00 00       	call   0x3ecf
      314:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      31b:	e8 5a 3a 00 00       	call   0x3d7a
      320:	f3 0f 1e fb          	endbr32 
@@ -206,8 +206,8 @@ Desensamblado de la sección .text:
      325:	89 e5                	mov    %esp,%ebp
      327:	83 ec 10             	sub    $0x10,%esp
      32a:	68 62 42 00 00       	push   $0x4262
-     32f:	ff 35 b8 61 00 00    	pushl  0x61b8
-     335:	e8 91 3b 00 00       	call   0x3ecb
+     32f:	ff 35 10 62 00 00    	push   0x6210
+     335:	e8 95 3b 00 00       	call   0x3ecf
      33a:	83 c4 08             	add    $0x8,%esp
      33d:	6a 00                	push   $0x0
      33f:	68 6d 42 00 00       	push   $0x426d
@@ -227,21 +227,21 @@ Desensamblado de la sección .text:
      36d:	79 37                	jns    0x3a6
      36f:	83 ec 08             	sub    $0x8,%esp
      372:	68 b0 42 00 00       	push   $0x42b0
-     377:	ff 35 b8 61 00 00    	pushl  0x61b8
-     37d:	e8 49 3b 00 00       	call   0x3ecb
+     377:	ff 35 10 62 00 00    	push   0x6210
+     37d:	e8 4d 3b 00 00       	call   0x3ecf
      382:	83 c4 10             	add    $0x10,%esp
      385:	c9                   	leave  
      386:	c3                   	ret    
      387:	83 ec 08             	sub    $0x8,%esp
      38a:	68 72 42 00 00       	push   $0x4272
-     38f:	ff 35 b8 61 00 00    	pushl  0x61b8
-     395:	e8 31 3b 00 00       	call   0x3ecb
+     38f:	ff 35 10 62 00 00    	push   0x6210
+     395:	e8 35 3b 00 00       	call   0x3ecf
      39a:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      3a1:	e8 d4 39 00 00       	call   0x3d7a
      3a6:	83 ec 08             	sub    $0x8,%esp
      3a9:	68 92 42 00 00       	push   $0x4292
-     3ae:	ff 35 b8 61 00 00    	pushl  0x61b8
-     3b4:	e8 12 3b 00 00       	call   0x3ecb
+     3ae:	ff 35 10 62 00 00    	push   0x6210
+     3b4:	e8 16 3b 00 00       	call   0x3ecf
      3b9:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      3c0:	e8 b5 39 00 00       	call   0x3d7a
      3c5:	f3 0f 1e fb          	endbr32 
@@ -251,8 +251,8 @@ Desensamblado de la sección .text:
      3cd:	53                   	push   %ebx
      3ce:	83 ec 08             	sub    $0x8,%esp
      3d1:	68 be 42 00 00       	push   $0x42be
-     3d6:	ff 35 b8 61 00 00    	pushl  0x61b8
-     3dc:	e8 ea 3a 00 00       	call   0x3ecb
+     3d6:	ff 35 10 62 00 00    	push   0x6210
+     3dc:	e8 ee 3a 00 00       	call   0x3ecf
      3e1:	83 c4 08             	add    $0x8,%esp
      3e4:	68 02 02 00 00       	push   $0x202
      3e9:	68 cf 42 00 00       	push   $0x42cf
@@ -263,8 +263,8 @@ Desensamblado de la sección .text:
      3fa:	89 c6                	mov    %eax,%esi
      3fc:	83 ec 08             	sub    $0x8,%esp
      3ff:	68 d5 42 00 00       	push   $0x42d5
-     404:	ff 35 b8 61 00 00    	pushl  0x61b8
-     40a:	e8 bc 3a 00 00       	call   0x3ecb
+     404:	ff 35 10 62 00 00    	push   0x6210
+     40a:	e8 c0 3a 00 00       	call   0x3ecf
      40f:	83 c4 10             	add    $0x10,%esp
      412:	bb 00 00 00 00       	mov    $0x0,%ebx
      417:	83 fb 63             	cmp    $0x63,%ebx
@@ -289,28 +289,28 @@ Desensamblado de la sección .text:
      453:	eb c2                	jmp    0x417
      455:	83 ec 08             	sub    $0x8,%esp
      458:	68 f0 42 00 00       	push   $0x42f0
-     45d:	ff 35 b8 61 00 00    	pushl  0x61b8
-     463:	e8 63 3a 00 00       	call   0x3ecb
+     45d:	ff 35 10 62 00 00    	push   0x6210
+     463:	e8 67 3a 00 00       	call   0x3ecf
      468:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      46f:	e8 06 39 00 00       	call   0x3d7a
      474:	83 ec 04             	sub    $0x4,%esp
      477:	53                   	push   %ebx
      478:	68 d0 51 00 00       	push   $0x51d0
-     47d:	ff 35 b8 61 00 00    	pushl  0x61b8
-     483:	e8 43 3a 00 00       	call   0x3ecb
+     47d:	ff 35 10 62 00 00    	push   0x6210
+     483:	e8 47 3a 00 00       	call   0x3ecf
      488:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      48f:	e8 e6 38 00 00       	call   0x3d7a
      494:	83 ec 04             	sub    $0x4,%esp
      497:	53                   	push   %ebx
      498:	68 f4 51 00 00       	push   $0x51f4
-     49d:	ff 35 b8 61 00 00    	pushl  0x61b8
-     4a3:	e8 23 3a 00 00       	call   0x3ecb
+     49d:	ff 35 10 62 00 00    	push   0x6210
+     4a3:	e8 27 3a 00 00       	call   0x3ecf
      4a8:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      4af:	e8 c6 38 00 00       	call   0x3d7a
      4b4:	83 ec 08             	sub    $0x8,%esp
      4b7:	68 22 43 00 00       	push   $0x4322
-     4bc:	ff 35 b8 61 00 00    	pushl  0x61b8
-     4c2:	e8 04 3a 00 00       	call   0x3ecb
+     4bc:	ff 35 10 62 00 00    	push   0x6210
+     4c2:	e8 08 3a 00 00       	call   0x3ecf
      4c7:	89 34 24             	mov    %esi,(%esp)
      4ca:	e8 d3 38 00 00       	call   0x3da2
      4cf:	83 c4 08             	add    $0x8,%esp
@@ -323,11 +323,11 @@ Desensamblado de la sección .text:
      4e5:	78 7b                	js     0x562
      4e7:	83 ec 08             	sub    $0x8,%esp
      4ea:	68 2d 43 00 00       	push   $0x432d
-     4ef:	ff 35 b8 61 00 00    	pushl  0x61b8
-     4f5:	e8 d1 39 00 00       	call   0x3ecb
+     4ef:	ff 35 10 62 00 00    	push   0x6210
+     4f5:	e8 d5 39 00 00       	call   0x3ecf
      4fa:	83 c4 0c             	add    $0xc,%esp
      4fd:	68 d0 07 00 00       	push   $0x7d0
-     502:	68 a0 89 00 00       	push   $0x89a0
+     502:	68 00 8a 00 00       	push   $0x8a00
      507:	53                   	push   %ebx
      508:	e8 85 38 00 00       	call   0x3d92
      50d:	83 c4 10             	add    $0x10,%esp
@@ -335,8 +335,8 @@ Desensamblado de la sección .text:
      515:	75 6a                	jne    0x581
      517:	83 ec 08             	sub    $0x8,%esp
      51a:	68 61 43 00 00       	push   $0x4361
-     51f:	ff 35 b8 61 00 00    	pushl  0x61b8
-     525:	e8 a1 39 00 00       	call   0x3ecb
+     51f:	ff 35 10 62 00 00    	push   0x6210
+     525:	e8 a5 39 00 00       	call   0x3ecf
      52a:	89 1c 24             	mov    %ebx,(%esp)
      52d:	e8 70 38 00 00       	call   0x3da2
      532:	c7 04 24 cf 42 00 00 	movl   $0x42cf,(%esp)
@@ -346,8 +346,8 @@ Desensamblado de la sección .text:
      543:	78 5b                	js     0x5a0
      545:	83 ec 08             	sub    $0x8,%esp
      548:	68 89 43 00 00       	push   $0x4389
-     54d:	ff 35 b8 61 00 00    	pushl  0x61b8
-     553:	e8 73 39 00 00       	call   0x3ecb
+     54d:	ff 35 10 62 00 00    	push   0x6210
+     553:	e8 77 39 00 00       	call   0x3ecf
      558:	83 c4 10             	add    $0x10,%esp
      55b:	8d 65 f8             	lea    -0x8(%ebp),%esp
      55e:	5b                   	pop    %ebx
@@ -356,20 +356,20 @@ Desensamblado de la sección .text:
      561:	c3                   	ret    
      562:	83 ec 08             	sub    $0x8,%esp
      565:	68 46 43 00 00       	push   $0x4346
-     56a:	ff 35 b8 61 00 00    	pushl  0x61b8
-     570:	e8 56 39 00 00       	call   0x3ecb
+     56a:	ff 35 10 62 00 00    	push   0x6210
+     570:	e8 5a 39 00 00       	call   0x3ecf
      575:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      57c:	e8 f9 37 00 00       	call   0x3d7a
      581:	83 ec 08             	sub    $0x8,%esp
      584:	68 8d 46 00 00       	push   $0x468d
-     589:	ff 35 b8 61 00 00    	pushl  0x61b8
-     58f:	e8 37 39 00 00       	call   0x3ecb
+     589:	ff 35 10 62 00 00    	push   0x6210
+     58f:	e8 3b 39 00 00       	call   0x3ecf
      594:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      59b:	e8 da 37 00 00       	call   0x3d7a
      5a0:	83 ec 08             	sub    $0x8,%esp
      5a3:	68 74 43 00 00       	push   $0x4374
-     5a8:	ff 35 b8 61 00 00    	pushl  0x61b8
-     5ae:	e8 18 39 00 00       	call   0x3ecb
+     5a8:	ff 35 10 62 00 00    	push   0x6210
+     5ae:	e8 1c 39 00 00       	call   0x3ecf
      5b3:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      5ba:	e8 bb 37 00 00       	call   0x3d7a
      5bf:	f3 0f 1e fb          	endbr32 
@@ -379,8 +379,8 @@ Desensamblado de la sección .text:
      5c7:	53                   	push   %ebx
      5c8:	83 ec 08             	sub    $0x8,%esp
      5cb:	68 9d 43 00 00       	push   $0x439d
-     5d0:	ff 35 b8 61 00 00    	pushl  0x61b8
-     5d6:	e8 f0 38 00 00       	call   0x3ecb
+     5d0:	ff 35 10 62 00 00    	push   0x6210
+     5d6:	e8 f4 38 00 00       	call   0x3ecf
      5db:	83 c4 08             	add    $0x8,%esp
      5de:	68 02 02 00 00       	push   $0x202
      5e3:	68 17 44 00 00       	push   $0x4417
@@ -392,10 +392,10 @@ Desensamblado de la sección .text:
      5f6:	bb 00 00 00 00       	mov    $0x0,%ebx
      5fb:	81 fb 8b 00 00 00    	cmp    $0x8b,%ebx
      601:	77 67                	ja     0x66a
-     603:	89 1d a0 89 00 00    	mov    %ebx,0x89a0
+     603:	89 1d 00 8a 00 00    	mov    %ebx,0x8a00
      609:	83 ec 04             	sub    $0x4,%esp
      60c:	68 00 02 00 00       	push   $0x200
-     611:	68 a0 89 00 00       	push   $0x89a0
+     611:	68 00 8a 00 00       	push   $0x8a00
      616:	56                   	push   %esi
      617:	e8 7e 37 00 00       	call   0x3d9a
      61c:	83 c4 10             	add    $0x10,%esp
@@ -405,15 +405,15 @@ Desensamblado de la sección .text:
      629:	eb d0                	jmp    0x5fb
      62b:	83 ec 08             	sub    $0x8,%esp
      62e:	68 ad 43 00 00       	push   $0x43ad
-     633:	ff 35 b8 61 00 00    	pushl  0x61b8
-     639:	e8 8d 38 00 00       	call   0x3ecb
+     633:	ff 35 10 62 00 00    	push   0x6210
+     639:	e8 91 38 00 00       	call   0x3ecf
      63e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      645:	e8 30 37 00 00       	call   0x3d7a
      64a:	83 ec 04             	sub    $0x4,%esp
      64d:	53                   	push   %ebx
      64e:	68 c7 43 00 00       	push   $0x43c7
-     653:	ff 35 b8 61 00 00    	pushl  0x61b8
-     659:	e8 6d 38 00 00       	call   0x3ecb
+     653:	ff 35 10 62 00 00    	push   0x6210
+     659:	e8 71 38 00 00       	call   0x3ecf
      65e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      665:	e8 10 37 00 00       	call   0x3d7a
      66a:	83 ec 0c             	sub    $0xc,%esp
@@ -430,7 +430,7 @@ Desensamblado de la sección .text:
      68b:	bb 00 00 00 00       	mov    $0x0,%ebx
      690:	83 ec 04             	sub    $0x4,%esp
      693:	68 00 02 00 00       	push   $0x200
-     698:	68 a0 89 00 00       	push   $0x89a0
+     698:	68 00 8a 00 00       	push   $0x8a00
      69d:	56                   	push   %esi
      69e:	e8 ef 36 00 00       	call   0x3d92
      6a3:	83 c4 10             	add    $0x10,%esp
@@ -438,15 +438,15 @@ Desensamblado de la sección .text:
      6a8:	74 3c                	je     0x6e6
      6aa:	3d 00 02 00 00       	cmp    $0x200,%eax
      6af:	0f 85 92 00 00 00    	jne    0x747
-     6b5:	a1 a0 89 00 00       	mov    0x89a0,%eax
+     6b5:	a1 00 8a 00 00       	mov    0x8a00,%eax
      6ba:	39 d8                	cmp    %ebx,%eax
      6bc:	0f 85 a5 00 00 00    	jne    0x767
      6c2:	83 c3 01             	add    $0x1,%ebx
      6c5:	eb c9                	jmp    0x690
      6c7:	83 ec 08             	sub    $0x8,%esp
      6ca:	68 e5 43 00 00       	push   $0x43e5
-     6cf:	ff 35 b8 61 00 00    	pushl  0x61b8
-     6d5:	e8 f1 37 00 00       	call   0x3ecb
+     6cf:	ff 35 10 62 00 00    	push   0x6210
+     6d5:	e8 f5 37 00 00       	call   0x3ecf
      6da:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      6e1:	e8 94 36 00 00       	call   0x3d7a
      6e6:	81 fb 8b 00 00 00    	cmp    $0x8b,%ebx
@@ -461,8 +461,8 @@ Desensamblado de la sección .text:
      708:	78 7b                	js     0x785
      70a:	83 ec 08             	sub    $0x8,%esp
      70d:	68 3e 44 00 00       	push   $0x443e
-     712:	ff 35 b8 61 00 00    	pushl  0x61b8
-     718:	e8 ae 37 00 00       	call   0x3ecb
+     712:	ff 35 10 62 00 00    	push   0x6210
+     718:	e8 b2 37 00 00       	call   0x3ecf
      71d:	83 c4 10             	add    $0x10,%esp
      720:	8d 65 f8             	lea    -0x8(%ebp),%esp
      723:	5b                   	pop    %ebx
@@ -472,28 +472,28 @@ Desensamblado de la sección .text:
      727:	83 ec 04             	sub    $0x4,%esp
      72a:	53                   	push   %ebx
      72b:	68 fe 43 00 00       	push   $0x43fe
-     730:	ff 35 b8 61 00 00    	pushl  0x61b8
-     736:	e8 90 37 00 00       	call   0x3ecb
+     730:	ff 35 10 62 00 00    	push   0x6210
+     736:	e8 94 37 00 00       	call   0x3ecf
      73b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      742:	e8 33 36 00 00       	call   0x3d7a
      747:	83 ec 04             	sub    $0x4,%esp
      74a:	50                   	push   %eax
      74b:	68 1b 44 00 00       	push   $0x441b
-     750:	ff 35 b8 61 00 00    	pushl  0x61b8
-     756:	e8 70 37 00 00       	call   0x3ecb
+     750:	ff 35 10 62 00 00    	push   0x6210
+     756:	e8 74 37 00 00       	call   0x3ecf
      75b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      762:	e8 13 36 00 00       	call   0x3d7a
      767:	50                   	push   %eax
      768:	53                   	push   %ebx
      769:	68 18 52 00 00       	push   $0x5218
-     76e:	ff 35 b8 61 00 00    	pushl  0x61b8
-     774:	e8 52 37 00 00       	call   0x3ecb
+     76e:	ff 35 10 62 00 00    	push   0x6210
+     774:	e8 56 37 00 00       	call   0x3ecf
      779:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      780:	e8 f5 35 00 00       	call   0x3d7a
      785:	83 ec 08             	sub    $0x8,%esp
      788:	68 2b 44 00 00       	push   $0x442b
-     78d:	ff 35 b8 61 00 00    	pushl  0x61b8
-     793:	e8 33 37 00 00       	call   0x3ecb
+     78d:	ff 35 10 62 00 00    	push   0x6210
+     793:	e8 37 37 00 00       	call   0x3ecf
      798:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      79f:	e8 d6 35 00 00       	call   0x3d7a
      7a4:	f3 0f 1e fb          	endbr32 
@@ -502,18 +502,18 @@ Desensamblado de la sección .text:
      7ab:	53                   	push   %ebx
      7ac:	83 ec 0c             	sub    $0xc,%esp
      7af:	68 38 52 00 00       	push   $0x5238
-     7b4:	ff 35 b8 61 00 00    	pushl  0x61b8
-     7ba:	e8 0c 37 00 00       	call   0x3ecb
-     7bf:	c6 05 a0 a9 00 00 61 	movb   $0x61,0xa9a0
-     7c6:	c6 05 a2 a9 00 00 00 	movb   $0x0,0xa9a2
+     7b4:	ff 35 10 62 00 00    	push   0x6210
+     7ba:	e8 10 37 00 00       	call   0x3ecf
+     7bf:	c6 05 00 aa 00 00 61 	movb   $0x61,0xaa00
+     7c6:	c6 05 02 aa 00 00 00 	movb   $0x0,0xaa02
      7cd:	83 c4 10             	add    $0x10,%esp
      7d0:	bb 00 00 00 00       	mov    $0x0,%ebx
      7d5:	eb 28                	jmp    0x7ff
      7d7:	8d 43 30             	lea    0x30(%ebx),%eax
-     7da:	a2 a1 a9 00 00       	mov    %al,0xa9a1
+     7da:	a2 01 aa 00 00       	mov    %al,0xaa01
      7df:	83 ec 08             	sub    $0x8,%esp
      7e2:	68 02 02 00 00       	push   $0x202
-     7e7:	68 a0 a9 00 00       	push   $0xa9a0
+     7e7:	68 00 aa 00 00       	push   $0xaa00
      7ec:	e8 c9 35 00 00       	call   0x3dba
      7f1:	89 04 24             	mov    %eax,(%esp)
      7f4:	e8 a9 35 00 00       	call   0x3da2
@@ -521,14 +521,14 @@ Desensamblado de la sección .text:
      7fc:	83 c4 10             	add    $0x10,%esp
      7ff:	83 fb 33             	cmp    $0x33,%ebx
      802:	7e d3                	jle    0x7d7
-     804:	c6 05 a0 a9 00 00 61 	movb   $0x61,0xa9a0
-     80b:	c6 05 a2 a9 00 00 00 	movb   $0x0,0xa9a2
+     804:	c6 05 00 aa 00 00 61 	movb   $0x61,0xaa00
+     80b:	c6 05 02 aa 00 00 00 	movb   $0x0,0xaa02
      812:	bb 00 00 00 00       	mov    $0x0,%ebx
      817:	eb 1b                	jmp    0x834
      819:	8d 43 30             	lea    0x30(%ebx),%eax
-     81c:	a2 a1 a9 00 00       	mov    %al,0xa9a1
+     81c:	a2 01 aa 00 00       	mov    %al,0xaa01
      821:	83 ec 0c             	sub    $0xc,%esp
-     824:	68 a0 a9 00 00       	push   $0xa9a0
+     824:	68 00 aa 00 00       	push   $0xaa00
      829:	e8 9c 35 00 00       	call   0x3dca
      82e:	83 c3 01             	add    $0x1,%ebx
      831:	83 c4 10             	add    $0x10,%esp
@@ -536,8 +536,8 @@ Desensamblado de la sección .text:
      837:	7e e0                	jle    0x819
      839:	83 ec 08             	sub    $0x8,%esp
      83c:	68 60 52 00 00       	push   $0x5260
-     841:	ff 35 b8 61 00 00    	pushl  0x61b8
-     847:	e8 7f 36 00 00       	call   0x3ecb
+     841:	ff 35 10 62 00 00    	push   0x6210
+     847:	e8 83 36 00 00       	call   0x3ecf
      84c:	83 c4 10             	add    $0x10,%esp
      84f:	8b 5d fc             	mov    -0x4(%ebp),%ebx
      852:	c9                   	leave  
@@ -547,8 +547,8 @@ Desensamblado de la sección .text:
      859:	89 e5                	mov    %esp,%ebp
      85b:	83 ec 10             	sub    $0x10,%esp
      85e:	68 4c 44 00 00       	push   $0x444c
-     863:	ff 35 b8 61 00 00    	pushl  0x61b8
-     869:	e8 5d 36 00 00       	call   0x3ecb
+     863:	ff 35 10 62 00 00    	push   0x6210
+     869:	e8 61 36 00 00       	call   0x3ecf
      86e:	c7 04 24 58 44 00 00 	movl   $0x4458,(%esp)
      875:	e8 68 35 00 00       	call   0x3de2
      87a:	83 c4 10             	add    $0x10,%esp
@@ -574,33 +574,33 @@ Desensamblado de la sección .text:
      8bb:	78 75                	js     0x932
      8bd:	83 ec 08             	sub    $0x8,%esp
      8c0:	68 95 44 00 00       	push   $0x4495
-     8c5:	ff 35 b8 61 00 00    	pushl  0x61b8
-     8cb:	e8 fb 35 00 00       	call   0x3ecb
+     8c5:	ff 35 10 62 00 00    	push   0x6210
+     8cb:	e8 ff 35 00 00       	call   0x3ecf
      8d0:	83 c4 10             	add    $0x10,%esp
      8d3:	c9                   	leave  
      8d4:	c3                   	ret    
      8d5:	83 ec 08             	sub    $0x8,%esp
      8d8:	68 88 41 00 00       	push   $0x4188
-     8dd:	ff 35 b8 61 00 00    	pushl  0x61b8
-     8e3:	e8 e3 35 00 00       	call   0x3ecb
+     8dd:	ff 35 10 62 00 00    	push   0x6210
+     8e3:	e8 e7 35 00 00       	call   0x3ecf
      8e8:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      8ef:	e8 86 34 00 00       	call   0x3d7a
      8f4:	83 ec 08             	sub    $0x8,%esp
      8f7:	68 5d 44 00 00       	push   $0x445d
-     8fc:	ff 35 b8 61 00 00    	pushl  0x61b8
-     902:	e8 c4 35 00 00       	call   0x3ecb
+     8fc:	ff 35 10 62 00 00    	push   0x6210
+     902:	e8 c8 35 00 00       	call   0x3ecf
      907:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      90e:	e8 67 34 00 00       	call   0x3d7a
      913:	83 ec 08             	sub    $0x8,%esp
      916:	68 70 44 00 00       	push   $0x4470
-     91b:	ff 35 b8 61 00 00    	pushl  0x61b8
-     921:	e8 a5 35 00 00       	call   0x3ecb
+     91b:	ff 35 10 62 00 00    	push   0x6210
+     921:	e8 a9 35 00 00       	call   0x3ecf
      926:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      92d:	e8 48 34 00 00       	call   0x3d7a
      932:	83 ec 08             	sub    $0x8,%esp
      935:	68 81 44 00 00       	push   $0x4481
-     93a:	ff 35 b8 61 00 00    	pushl  0x61b8
-     940:	e8 86 35 00 00       	call   0x3ecb
+     93a:	ff 35 10 62 00 00    	push   0x6210
+     940:	e8 8a 35 00 00       	call   0x3ecf
      945:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      94c:	e8 29 34 00 00       	call   0x3d7a
      951:	f3 0f 1e fb          	endbr32 
@@ -608,10 +608,10 @@ Desensamblado de la sección .text:
      956:	89 e5                	mov    %esp,%ebp
      958:	83 ec 10             	sub    $0x10,%esp
      95b:	68 a4 44 00 00       	push   $0x44a4
-     960:	ff 35 b8 61 00 00    	pushl  0x61b8
-     966:	e8 60 35 00 00       	call   0x3ecb
+     960:	ff 35 10 62 00 00    	push   0x6210
+     966:	e8 64 35 00 00       	call   0x3ecf
      96b:	83 c4 08             	add    $0x8,%esp
-     96e:	68 bc 61 00 00       	push   $0x61bc
+     96e:	68 14 62 00 00       	push   $0x6214
      973:	68 6d 42 00 00       	push   $0x426d
      978:	e8 35 34 00 00       	call   0x3db2
      97d:	83 c4 10             	add    $0x10,%esp
@@ -621,8 +621,8 @@ Desensamblado de la sección .text:
      985:	c3                   	ret    
      986:	83 ec 08             	sub    $0x8,%esp
      989:	68 af 44 00 00       	push   $0x44af
-     98e:	ff 35 b8 61 00 00    	pushl  0x61b8
-     994:	e8 32 35 00 00       	call   0x3ecb
+     98e:	ff 35 10 62 00 00    	push   0x6210
+     994:	e8 36 35 00 00       	call   0x3ecf
      999:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      9a0:	e8 d5 33 00 00       	call   0x3d7a
      9a5:	f3 0f 1e fb          	endbr32 
@@ -645,16 +645,16 @@ Desensamblado de la sección .text:
      9cd:	0f 84 82 00 00 00    	je     0xa55
      9d3:	0f 8e 81 01 00 00    	jle    0xb5a
      9d9:	83 ec 0c             	sub    $0xc,%esp
-     9dc:	ff 75 e4             	pushl  -0x1c(%ebp)
+     9dc:	ff 75 e4             	push   -0x1c(%ebp)
      9df:	e8 be 33 00 00       	call   0x3da2
      9e4:	83 c4 10             	add    $0x10,%esp
      9e7:	89 75 d0             	mov    %esi,-0x30(%ebp)
      9ea:	89 f3                	mov    %esi,%ebx
      9ec:	c7 45 d4 01 00 00 00 	movl   $0x1,-0x2c(%ebp)
      9f3:	83 ec 04             	sub    $0x4,%esp
-     9f6:	ff 75 d4             	pushl  -0x2c(%ebp)
-     9f9:	68 a0 89 00 00       	push   $0x89a0
-     9fe:	ff 75 e0             	pushl  -0x20(%ebp)
+     9f6:	ff 75 d4             	push   -0x2c(%ebp)
+     9f9:	68 00 8a 00 00       	push   $0x8a00
+     9fe:	ff 75 e0             	push   -0x20(%ebp)
      a01:	e8 8c 33 00 00       	call   0x3d92
      a06:	89 c7                	mov    %eax,%edi
      a08:	83 c4 10             	add    $0x10,%esp
@@ -664,7 +664,7 @@ Desensamblado de la sección .text:
      a15:	89 d9                	mov    %ebx,%ecx
      a17:	39 f8                	cmp    %edi,%eax
      a19:	0f 8d c7 00 00 00    	jge    0xae6
-     a1f:	0f be 98 a0 89 00 00 	movsbl 0x89a0(%eax),%ebx
+     a1f:	0f be 98 00 8a 00 00 	movsbl 0x8a00(%eax),%ebx
      a26:	8d 51 01             	lea    0x1(%ecx),%edx
      a29:	31 cb                	xor    %ecx,%ebx
      a2b:	84 db                	test   %bl,%bl
@@ -675,11 +675,11 @@ Desensamblado de la sección .text:
      a3a:	83 ec 08             	sub    $0x8,%esp
      a3d:	68 c1 44 00 00       	push   $0x44c1
      a42:	6a 01                	push   $0x1
-     a44:	e8 82 34 00 00       	call   0x3ecb
+     a44:	e8 86 34 00 00       	call   0x3ecf
      a49:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      a50:	e8 25 33 00 00       	call   0x3d7a
      a55:	83 ec 0c             	sub    $0xc,%esp
-     a58:	ff 75 e0             	pushl  -0x20(%ebp)
+     a58:	ff 75 e0             	push   -0x20(%ebp)
      a5b:	e8 42 33 00 00       	call   0x3da2
      a60:	83 c4 10             	add    $0x10,%esp
      a63:	89 fe                	mov    %edi,%esi
@@ -687,8 +687,8 @@ Desensamblado de la sección .text:
      a67:	eb 22                	jmp    0xa8b
      a69:	83 ec 04             	sub    $0x4,%esp
      a6c:	68 09 04 00 00       	push   $0x409
-     a71:	68 a0 89 00 00       	push   $0x89a0
-     a76:	ff 75 e4             	pushl  -0x1c(%ebp)
+     a71:	68 00 8a 00 00       	push   $0x8a00
+     a76:	ff 75 e4             	push   -0x1c(%ebp)
      a79:	e8 1c 33 00 00       	call   0x3d9a
      a7e:	83 c4 10             	add    $0x10,%esp
      a81:	3d 09 04 00 00       	cmp    $0x409,%eax
@@ -699,14 +699,14 @@ Desensamblado de la sección .text:
      a90:	89 f8                	mov    %edi,%eax
      a92:	3d 08 04 00 00       	cmp    $0x408,%eax
      a97:	7f d0                	jg     0xa69
-     a99:	88 98 a0 89 00 00    	mov    %bl,0x89a0(%eax)
+     a99:	88 98 00 8a 00 00    	mov    %bl,0x8a00(%eax)
      a9f:	83 c0 01             	add    $0x1,%eax
      aa2:	8d 5b 01             	lea    0x1(%ebx),%ebx
      aa5:	eb eb                	jmp    0xa92
      aa7:	83 ec 08             	sub    $0x8,%esp
      aaa:	68 d0 44 00 00       	push   $0x44d0
      aaf:	6a 01                	push   $0x1
-     ab1:	e8 15 34 00 00       	call   0x3ecb
+     ab1:	e8 19 34 00 00       	call   0x3ecf
      ab6:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      abd:	e8 b8 32 00 00       	call   0x3d7a
      ac2:	83 ec 0c             	sub    $0xc,%esp
@@ -715,7 +715,7 @@ Desensamblado de la sección .text:
      acc:	83 ec 08             	sub    $0x8,%esp
      acf:	68 de 44 00 00       	push   $0x44de
      ad4:	6a 01                	push   $0x1
-     ad6:	e8 f0 33 00 00       	call   0x3ecb
+     ad6:	e8 f4 33 00 00       	call   0x3ecf
      adb:	83 c4 10             	add    $0x10,%esp
      ade:	8d 65 f4             	lea    -0xc(%ebp),%esp
      ae1:	5b                   	pop    %ebx
@@ -734,27 +734,27 @@ Desensamblado de la sección .text:
      b08:	81 7d d0 2d 14 00 00 	cmpl   $0x142d,-0x30(%ebp)
      b0f:	75 2b                	jne    0xb3c
      b11:	83 ec 0c             	sub    $0xc,%esp
-     b14:	ff 75 e0             	pushl  -0x20(%ebp)
+     b14:	ff 75 e0             	push   -0x20(%ebp)
      b17:	e8 86 32 00 00       	call   0x3da2
      b1c:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      b23:	e8 5a 32 00 00       	call   0x3d82
      b28:	83 c4 08             	add    $0x8,%esp
      b2b:	68 03 45 00 00       	push   $0x4503
      b30:	6a 01                	push   $0x1
-     b32:	e8 94 33 00 00       	call   0x3ecb
+     b32:	e8 98 33 00 00       	call   0x3ecf
      b37:	83 c4 10             	add    $0x10,%esp
      b3a:	eb a2                	jmp    0xade
      b3c:	83 ec 04             	sub    $0x4,%esp
-     b3f:	ff 75 d0             	pushl  -0x30(%ebp)
+     b3f:	ff 75 d0             	push   -0x30(%ebp)
      b42:	68 ec 44 00 00       	push   $0x44ec
      b47:	6a 01                	push   $0x1
-     b49:	e8 7d 33 00 00       	call   0x3ecb
+     b49:	e8 81 33 00 00       	call   0x3ecf
      b4e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      b55:	e8 20 32 00 00       	call   0x3d7a
      b5a:	83 ec 08             	sub    $0x8,%esp
      b5d:	68 0d 45 00 00       	push   $0x450d
      b62:	6a 01                	push   $0x1
-     b64:	e8 62 33 00 00       	call   0x3ecb
+     b64:	e8 66 33 00 00       	call   0x3ecf
      b69:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      b70:	e8 05 32 00 00       	call   0x3d7a
      b75:	f3 0f 1e fb          	endbr32 
@@ -766,7 +766,7 @@ Desensamblado de la sección .text:
      b7f:	83 ec 24             	sub    $0x24,%esp
      b82:	68 1c 45 00 00       	push   $0x451c
      b87:	6a 01                	push   $0x1
-     b89:	e8 3d 33 00 00       	call   0x3ecb
+     b89:	e8 41 33 00 00       	call   0x3ecf
      b8e:	e8 df 31 00 00       	call   0x3d72
      b93:	83 c4 10             	add    $0x10,%esp
      b96:	85 c0                	test   %eax,%eax
@@ -788,34 +788,34 @@ Desensamblado de la sección .text:
      bc1:	85 c0                	test   %eax,%eax
      bc3:	75 49                	jne    0xc0e
      bc5:	83 ec 0c             	sub    $0xc,%esp
-     bc8:	ff 75 e0             	pushl  -0x20(%ebp)
+     bc8:	ff 75 e0             	push   -0x20(%ebp)
      bcb:	e8 d2 31 00 00       	call   0x3da2
      bd0:	83 c4 0c             	add    $0xc,%esp
      bd3:	6a 01                	push   $0x1
      bd5:	68 e1 4a 00 00       	push   $0x4ae1
-     bda:	ff 75 e4             	pushl  -0x1c(%ebp)
+     bda:	ff 75 e4             	push   -0x1c(%ebp)
      bdd:	e8 b8 31 00 00       	call   0x3d9a
      be2:	83 c4 10             	add    $0x10,%esp
      be5:	83 f8 01             	cmp    $0x1,%eax
      be8:	75 10                	jne    0xbfa
      bea:	83 ec 0c             	sub    $0xc,%esp
-     bed:	ff 75 e4             	pushl  -0x1c(%ebp)
+     bed:	ff 75 e4             	push   -0x1c(%ebp)
      bf0:	e8 ad 31 00 00       	call   0x3da2
      bf5:	83 c4 10             	add    $0x10,%esp
      bf8:	eb fe                	jmp    0xbf8
      bfa:	83 ec 08             	sub    $0x8,%esp
      bfd:	68 26 45 00 00       	push   $0x4526
      c02:	6a 01                	push   $0x1
-     c04:	e8 c2 32 00 00       	call   0x3ecb
+     c04:	e8 c6 32 00 00       	call   0x3ecf
      c09:	83 c4 10             	add    $0x10,%esp
      c0c:	eb dc                	jmp    0xbea
      c0e:	83 ec 0c             	sub    $0xc,%esp
-     c11:	ff 75 e4             	pushl  -0x1c(%ebp)
+     c11:	ff 75 e4             	push   -0x1c(%ebp)
      c14:	e8 89 31 00 00       	call   0x3da2
      c19:	83 c4 0c             	add    $0xc,%esp
      c1c:	68 00 20 00 00       	push   $0x2000
-     c21:	68 a0 89 00 00       	push   $0x89a0
-     c26:	ff 75 e0             	pushl  -0x20(%ebp)
+     c21:	68 00 8a 00 00       	push   $0x8a00
+     c26:	ff 75 e0             	push   -0x20(%ebp)
      c29:	e8 64 31 00 00       	call   0x3d92
      c2e:	83 c4 10             	add    $0x10,%esp
      c31:	83 f8 01             	cmp    $0x1,%eax
@@ -823,7 +823,7 @@ Desensamblado de la sección .text:
      c36:	83 ec 08             	sub    $0x8,%esp
      c39:	68 3a 45 00 00       	push   $0x453a
      c3e:	6a 01                	push   $0x1
-     c40:	e8 86 32 00 00       	call   0x3ecb
+     c40:	e8 8a 32 00 00       	call   0x3ecf
      c45:	83 c4 10             	add    $0x10,%esp
      c48:	8d 65 f4             	lea    -0xc(%ebp),%esp
      c4b:	5b                   	pop    %ebx
@@ -832,12 +832,12 @@ Desensamblado de la sección .text:
      c4e:	5d                   	pop    %ebp
      c4f:	c3                   	ret    
      c50:	83 ec 0c             	sub    $0xc,%esp
-     c53:	ff 75 e0             	pushl  -0x20(%ebp)
+     c53:	ff 75 e0             	push   -0x20(%ebp)
      c56:	e8 47 31 00 00       	call   0x3da2
      c5b:	83 c4 08             	add    $0x8,%esp
      c5e:	68 4d 45 00 00       	push   $0x454d
      c63:	6a 01                	push   $0x1
-     c65:	e8 61 32 00 00       	call   0x3ecb
+     c65:	e8 65 32 00 00       	call   0x3ecf
      c6a:	89 3c 24             	mov    %edi,(%esp)
      c6d:	e8 38 31 00 00       	call   0x3daa
      c72:	89 34 24             	mov    %esi,(%esp)
@@ -847,7 +847,7 @@ Desensamblado de la sección .text:
      c82:	83 c4 08             	add    $0x8,%esp
      c85:	68 56 45 00 00       	push   $0x4556
      c8a:	6a 01                	push   $0x1
-     c8c:	e8 3a 32 00 00       	call   0x3ecb
+     c8c:	e8 3e 32 00 00       	call   0x3ecf
      c91:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      c98:	e8 e5 30 00 00       	call   0x3d82
      c9d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
@@ -857,7 +857,7 @@ Desensamblado de la sección .text:
      cb5:	83 c4 08             	add    $0x8,%esp
      cb8:	68 5f 45 00 00       	push   $0x455f
      cbd:	6a 01                	push   $0x1
-     cbf:	e8 07 32 00 00       	call   0x3ecb
+     cbf:	e8 0b 32 00 00       	call   0x3ecf
      cc4:	83 c4 10             	add    $0x10,%esp
      cc7:	e9 7c ff ff ff       	jmp    0xc48
      ccc:	f3 0f 1e fb          	endbr32 
@@ -870,7 +870,7 @@ Desensamblado de la sección .text:
      cdc:	83 ec 08             	sub    $0x8,%esp
      cdf:	68 c9 50 00 00       	push   $0x50c9
      ce4:	6a 01                	push   $0x1
-     ce6:	e8 e0 31 00 00       	call   0x3ecb
+     ce6:	e8 e4 31 00 00       	call   0x3ecf
      ceb:	83 c4 10             	add    $0x10,%esp
      cee:	8d 65 f8             	lea    -0x8(%ebp),%esp
      cf1:	5b                   	pop    %ebx
@@ -897,13 +897,13 @@ Desensamblado de la sección .text:
      d25:	83 ec 08             	sub    $0x8,%esp
      d28:	68 6b 45 00 00       	push   $0x456b
      d2d:	6a 01                	push   $0x1
-     d2f:	e8 97 31 00 00       	call   0x3ecb
+     d2f:	e8 9b 31 00 00       	call   0x3ecf
      d34:	83 c4 10             	add    $0x10,%esp
      d37:	eb b5                	jmp    0xcee
      d39:	83 ec 08             	sub    $0x8,%esp
      d3c:	68 7b 45 00 00       	push   $0x457b
      d41:	6a 01                	push   $0x1
-     d43:	e8 83 31 00 00       	call   0x3ecb
+     d43:	e8 87 31 00 00       	call   0x3ecf
      d48:	83 c4 10             	add    $0x10,%esp
      d4b:	eb a1                	jmp    0xcee
      d4d:	f3 0f 1e fb          	endbr32 
@@ -915,7 +915,7 @@ Desensamblado de la sección .text:
      d57:	83 ec 14             	sub    $0x14,%esp
      d5a:	68 88 45 00 00       	push   $0x4588
      d5f:	6a 01                	push   $0x1
-     d61:	e8 65 31 00 00       	call   0x3ecb
+     d61:	e8 69 31 00 00       	call   0x3ecf
      d66:	e8 8f 30 00 00       	call   0x3dfa
      d6b:	89 c6                	mov    %eax,%esi
      d6d:	e8 00 30 00 00       	call   0x3d72
@@ -925,7 +925,7 @@ Desensamblado de la sección .text:
      d7d:	bb 00 00 00 00       	mov    $0x0,%ebx
      d82:	83 ec 0c             	sub    $0xc,%esp
      d85:	68 11 27 00 00       	push   $0x2711
-     d8a:	e8 6d 33 00 00       	call   0x40fc
+     d8a:	e8 6a 33 00 00       	call   0x40f9
      d8f:	83 c4 10             	add    $0x10,%esp
      d92:	85 c0                	test   %eax,%eax
      d94:	74 16                	je     0xdac
@@ -935,30 +935,30 @@ Desensamblado de la sección .text:
      d9c:	8b 3b                	mov    (%ebx),%edi
      d9e:	83 ec 0c             	sub    $0xc,%esp
      da1:	53                   	push   %ebx
-     da2:	e8 91 32 00 00       	call   0x4038
+     da2:	e8 8e 32 00 00       	call   0x4035
      da7:	83 c4 10             	add    $0x10,%esp
      daa:	89 fb                	mov    %edi,%ebx
      dac:	85 db                	test   %ebx,%ebx
      dae:	75 ec                	jne    0xd9c
      db0:	83 ec 0c             	sub    $0xc,%esp
      db3:	68 00 50 00 00       	push   $0x5000
-     db8:	e8 3f 33 00 00       	call   0x40fc
+     db8:	e8 3c 33 00 00       	call   0x40f9
      dbd:	83 c4 10             	add    $0x10,%esp
      dc0:	85 c0                	test   %eax,%eax
      dc2:	74 24                	je     0xde8
      dc4:	83 ec 0c             	sub    $0xc,%esp
      dc7:	50                   	push   %eax
-     dc8:	e8 6b 32 00 00       	call   0x4038
+     dc8:	e8 68 32 00 00       	call   0x4035
      dcd:	83 c4 08             	add    $0x8,%esp
      dd0:	68 ac 45 00 00       	push   $0x45ac
      dd5:	6a 01                	push   $0x1
-     dd7:	e8 ef 30 00 00       	call   0x3ecb
+     dd7:	e8 f3 30 00 00       	call   0x3ecf
      ddc:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      de3:	e8 92 2f 00 00       	call   0x3d7a
      de8:	83 ec 08             	sub    $0x8,%esp
      deb:	68 92 45 00 00       	push   $0x4592
      df0:	6a 01                	push   $0x1
-     df2:	e8 d4 30 00 00       	call   0x3ecb
+     df2:	e8 d8 30 00 00       	call   0x3ecf
      df7:	89 34 24             	mov    %esi,(%esp)
      dfa:	e8 ab 2f 00 00       	call   0x3daa
      dff:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
@@ -982,7 +982,7 @@ Desensamblado de la sección .text:
      e2a:	83 ec 24             	sub    $0x24,%esp
      e2d:	68 b4 45 00 00       	push   $0x45b4
      e32:	6a 01                	push   $0x1
-     e34:	e8 92 30 00 00       	call   0x3ecb
+     e34:	e8 96 30 00 00       	call   0x3ecf
      e39:	c7 04 24 c3 45 00 00 	movl   $0x45c3,(%esp)
      e40:	e8 85 2f 00 00       	call   0x3dca
      e45:	83 c4 08             	add    $0x8,%esp
@@ -1022,7 +1022,7 @@ Desensamblado de la sección .text:
      eab:	83 ec 08             	sub    $0x8,%esp
      eae:	68 88 52 00 00       	push   $0x5288
      eb3:	6a 01                	push   $0x1
-     eb5:	e8 11 30 00 00       	call   0x3ecb
+     eb5:	e8 15 30 00 00       	call   0x3ecf
      eba:	83 c4 10             	add    $0x10,%esp
      ebd:	e9 ed 00 00 00       	jmp    0xfaf
      ec2:	b8 70 00 00 00       	mov    $0x70,%eax
@@ -1030,7 +1030,7 @@ Desensamblado de la sección .text:
      ec9:	83 ec 08             	sub    $0x8,%esp
      ecc:	68 b4 52 00 00       	push   $0x52b4
      ed1:	6a 01                	push   $0x1
-     ed3:	e8 f3 2f 00 00       	call   0x3ecb
+     ed3:	e8 f7 2f 00 00       	call   0x3ecf
      ed8:	83 c4 10             	add    $0x10,%esp
      edb:	85 ff                	test   %edi,%edi
      edd:	74 51                	je     0xf30
@@ -1066,7 +1066,7 @@ Desensamblado de la sección .text:
      f3a:	83 ec 08             	sub    $0x8,%esp
      f3d:	68 d4 52 00 00       	push   $0x52d4
      f42:	6a 01                	push   $0x1
-     f44:	e8 82 2f 00 00       	call   0x3ecb
+     f44:	e8 86 2f 00 00       	call   0x3ecf
      f49:	83 c4 10             	add    $0x10,%esp
      f4c:	eb 61                	jmp    0xfaf
      f4e:	83 c3 01             	add    $0x1,%ebx
@@ -1096,7 +1096,7 @@ Desensamblado de la sección .text:
      f9d:	83 ec 08             	sub    $0x8,%esp
      fa0:	68 cc 45 00 00       	push   $0x45cc
      fa5:	6a 01                	push   $0x1
-     fa7:	e8 1f 2f 00 00       	call   0x3ecb
+     fa7:	e8 23 2f 00 00       	call   0x3ecf
      fac:	83 c4 10             	add    $0x10,%esp
      faf:	8d 65 f4             	lea    -0xc(%ebp),%esp
      fb2:	5b                   	pop    %ebx
@@ -1108,7 +1108,7 @@ Desensamblado de la sección .text:
      fb8:	53                   	push   %ebx
      fb9:	68 d9 45 00 00       	push   $0x45d9
      fbe:	6a 01                	push   $0x1
-     fc0:	e8 06 2f 00 00       	call   0x3ecb
+     fc0:	e8 0a 2f 00 00       	call   0x3ecf
      fc5:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
      fcc:	e8 a9 2d 00 00       	call   0x3d7a
      fd1:	f3 0f 1e fb          	endbr32 
@@ -1124,7 +1124,7 @@ Desensamblado de la sección .text:
      ff3:	c7 45 e4 f1 45 00 00 	movl   $0x45f1,-0x1c(%ebp)
      ffa:	68 f4 45 00 00       	push   $0x45f4
      fff:	6a 01                	push   $0x1
-    1001:	e8 c5 2e 00 00       	call   0x3ecb
+    1001:	e8 c9 2e 00 00       	call   0x3ecf
     1006:	83 c4 10             	add    $0x10,%esp
     1009:	be 00 00 00 00       	mov    $0x0,%esi
     100e:	83 fe 03             	cmp    $0x3,%esi
@@ -1143,7 +1143,7 @@ Desensamblado de la sección .text:
     1037:	83 ec 08             	sub    $0x8,%esp
     103a:	68 c9 50 00 00       	push   $0x50c9
     103f:	6a 01                	push   $0x1
-    1041:	e8 85 2e 00 00       	call   0x3ecb
+    1041:	e8 89 2e 00 00       	call   0x3ecf
     1046:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     104d:	e8 28 2d 00 00       	call   0x3d7a
     1052:	89 c3                	mov    %eax,%ebx
@@ -1159,14 +1159,14 @@ Desensamblado de la sección .text:
     106e:	68 00 02 00 00       	push   $0x200
     1073:	83 c6 30             	add    $0x30,%esi
     1076:	56                   	push   %esi
-    1077:	68 a0 89 00 00       	push   $0x89a0
+    1077:	68 00 8a 00 00       	push   $0x8a00
     107c:	e8 ac 2b 00 00       	call   0x3c2d
     1081:	83 c4 10             	add    $0x10,%esp
     1084:	83 fb 0b             	cmp    $0xb,%ebx
     1087:	7f 59                	jg     0x10e2
     1089:	83 ec 04             	sub    $0x4,%esp
     108c:	68 f4 01 00 00       	push   $0x1f4
-    1091:	68 a0 89 00 00       	push   $0x89a0
+    1091:	68 00 8a 00 00       	push   $0x8a00
     1096:	57                   	push   %edi
     1097:	e8 fe 2c 00 00       	call   0x3d9a
     109c:	83 c4 10             	add    $0x10,%esp
@@ -1177,14 +1177,14 @@ Desensamblado de la sección .text:
     10ab:	83 ec 08             	sub    $0x8,%esp
     10ae:	68 8f 48 00 00       	push   $0x488f
     10b3:	6a 01                	push   $0x1
-    10b5:	e8 11 2e 00 00       	call   0x3ecb
+    10b5:	e8 15 2e 00 00       	call   0x3ecf
     10ba:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     10c1:	e8 b4 2c 00 00       	call   0x3d7a
     10c6:	83 ec 04             	sub    $0x4,%esp
     10c9:	50                   	push   %eax
     10ca:	68 04 46 00 00       	push   $0x4604
     10cf:	6a 01                	push   $0x1
-    10d1:	e8 f5 2d 00 00       	call   0x3ecb
+    10d1:	e8 f9 2d 00 00       	call   0x3ecf
     10d6:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     10dd:	e8 98 2c 00 00       	call   0x3d7a
     10e2:	83 ec 0c             	sub    $0xc,%esp
@@ -1204,14 +1204,14 @@ Desensamblado de la sección .text:
     110f:	83 ec 08             	sub    $0x8,%esp
     1112:	68 15 46 00 00       	push   $0x4615
     1117:	6a 01                	push   $0x1
-    1119:	e8 ad 2d 00 00       	call   0x3ecb
+    1119:	e8 b1 2d 00 00       	call   0x3ecf
     111e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1125:	e8 50 2c 00 00       	call   0x3d7a
     112a:	01 c6                	add    %eax,%esi
     112c:	83 ec 04             	sub    $0x4,%esp
     112f:	68 00 20 00 00       	push   $0x2000
-    1134:	68 a0 89 00 00       	push   $0x89a0
-    1139:	ff 75 d4             	pushl  -0x2c(%ebp)
+    1134:	68 00 8a 00 00       	push   $0x8a00
+    1139:	ff 75 d4             	push   -0x2c(%ebp)
     113c:	e8 51 2c 00 00       	call   0x3d92
     1141:	83 c4 10             	add    $0x10,%esp
     1144:	85 c0                	test   %eax,%eax
@@ -1219,20 +1219,20 @@ Desensamblado de la sección .text:
     1148:	ba 00 00 00 00       	mov    $0x0,%edx
     114d:	39 c2                	cmp    %eax,%edx
     114f:	7d d9                	jge    0x112a
-    1151:	0f be ba a0 89 00 00 	movsbl 0x89a0(%edx),%edi
+    1151:	0f be ba 00 8a 00 00 	movsbl 0x8a00(%edx),%edi
     1158:	8d 4b 30             	lea    0x30(%ebx),%ecx
     115b:	39 cf                	cmp    %ecx,%edi
     115d:	75 b0                	jne    0x110f
     115f:	83 c2 01             	add    $0x1,%edx
     1162:	eb e9                	jmp    0x114d
     1164:	83 ec 0c             	sub    $0xc,%esp
-    1167:	ff 75 d4             	pushl  -0x2c(%ebp)
+    1167:	ff 75 d4             	push   -0x2c(%ebp)
     116a:	e8 33 2c 00 00       	call   0x3da2
     116f:	83 c4 10             	add    $0x10,%esp
     1172:	81 fe 70 17 00 00    	cmp    $0x1770,%esi
     1178:	75 38                	jne    0x11b2
     117a:	83 ec 0c             	sub    $0xc,%esp
-    117d:	ff 75 d0             	pushl  -0x30(%ebp)
+    117d:	ff 75 d0             	push   -0x30(%ebp)
     1180:	e8 45 2c 00 00       	call   0x3dca
     1185:	83 c3 01             	add    $0x1,%ebx
     1188:	83 c4 10             	add    $0x10,%esp
@@ -1252,13 +1252,13 @@ Desensamblado de la sección .text:
     11b5:	56                   	push   %esi
     11b6:	68 21 46 00 00       	push   $0x4621
     11bb:	6a 01                	push   $0x1
-    11bd:	e8 09 2d 00 00       	call   0x3ecb
+    11bd:	e8 0d 2d 00 00       	call   0x3ecf
     11c2:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     11c9:	e8 ac 2b 00 00       	call   0x3d7a
     11ce:	83 ec 08             	sub    $0x8,%esp
     11d1:	68 32 46 00 00       	push   $0x4632
     11d6:	6a 01                	push   $0x1
-    11d8:	e8 ee 2c 00 00       	call   0x3ecb
+    11d8:	e8 f2 2c 00 00       	call   0x3ecf
     11dd:	83 c4 10             	add    $0x10,%esp
     11e0:	8d 65 f4             	lea    -0xc(%ebp),%esp
     11e3:	5b                   	pop    %ebx
@@ -1274,7 +1274,7 @@ Desensamblado de la sección .text:
     11f1:	83 ec 28             	sub    $0x28,%esp
     11f4:	68 40 46 00 00       	push   $0x4640
     11f9:	6a 01                	push   $0x1
-    11fb:	e8 cb 2c 00 00       	call   0x3ecb
+    11fb:	e8 cf 2c 00 00       	call   0x3ecf
     1200:	83 c4 10             	add    $0x10,%esp
     1203:	be 00 00 00 00       	mov    $0x0,%esi
     1208:	83 fe 03             	cmp    $0x3,%esi
@@ -1289,7 +1289,7 @@ Desensamblado de la sección .text:
     1223:	83 ec 08             	sub    $0x8,%esp
     1226:	68 c9 50 00 00       	push   $0x50c9
     122b:	6a 01                	push   $0x1
-    122d:	e8 99 2c 00 00       	call   0x3ecb
+    122d:	e8 9d 2c 00 00       	call   0x3ecf
     1232:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1239:	e8 3c 2b 00 00       	call   0x3d7a
     123e:	8d 46 70             	lea    0x70(%esi),%eax
@@ -1299,7 +1299,7 @@ Desensamblado de la sección .text:
     124a:	83 ec 08             	sub    $0x8,%esp
     124d:	68 8f 48 00 00       	push   $0x488f
     1252:	6a 01                	push   $0x1
-    1254:	e8 72 2c 00 00       	call   0x3ecb
+    1254:	e8 76 2c 00 00       	call   0x3ecf
     1259:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1260:	e8 15 2b 00 00       	call   0x3d7a
     1265:	83 c3 01             	add    $0x1,%ebx
@@ -1339,7 +1339,7 @@ Desensamblado de la sección .text:
     12c2:	83 ec 08             	sub    $0x8,%esp
     12c5:	68 41 42 00 00       	push   $0x4241
     12ca:	6a 01                	push   $0x1
-    12cc:	e8 fa 2b 00 00       	call   0x3ecb
+    12cc:	e8 fe 2b 00 00       	call   0x3ecf
     12d1:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     12d8:	e8 9d 2a 00 00       	call   0x3d7a
     12dd:	83 ec 0c             	sub    $0xc,%esp
@@ -1390,7 +1390,7 @@ Desensamblado de la sección .text:
     1367:	50                   	push   %eax
     1368:	68 00 53 00 00       	push   $0x5300
     136d:	6a 01                	push   $0x1
-    136f:	e8 57 2b 00 00       	call   0x3ecb
+    136f:	e8 5b 2b 00 00       	call   0x3ecf
     1374:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     137b:	e8 fa 29 00 00       	call   0x3d7a
     1380:	85 c0                	test   %eax,%eax
@@ -1400,7 +1400,7 @@ Desensamblado de la sección .text:
     138a:	50                   	push   %eax
     138b:	68 24 53 00 00       	push   $0x5324
     1390:	6a 01                	push   $0x1
-    1392:	e8 34 2b 00 00       	call   0x3ecb
+    1392:	e8 38 2b 00 00       	call   0x3ecf
     1397:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     139e:	e8 d7 29 00 00       	call   0x3d7a
     13a3:	83 ec 0c             	sub    $0xc,%esp
@@ -1435,7 +1435,7 @@ Desensamblado de la sección .text:
     13ff:	83 ec 08             	sub    $0x8,%esp
     1402:	68 53 46 00 00       	push   $0x4653
     1407:	6a 01                	push   $0x1
-    1409:	e8 bd 2a 00 00       	call   0x3ecb
+    1409:	e8 c1 2a 00 00       	call   0x3ecf
     140e:	83 c4 10             	add    $0x10,%esp
     1411:	8d 65 f8             	lea    -0x8(%ebp),%esp
     1414:	5b                   	pop    %ebx
@@ -1450,7 +1450,7 @@ Desensamblado de la sección .text:
     1421:	83 ec 08             	sub    $0x8,%esp
     1424:	68 64 46 00 00       	push   $0x4664
     1429:	6a 01                	push   $0x1
-    142b:	e8 9b 2a 00 00       	call   0x3ecb
+    142b:	e8 9f 2a 00 00       	call   0x3ecf
     1430:	83 c4 08             	add    $0x8,%esp
     1433:	68 02 02 00 00       	push   $0x202
     1438:	68 75 46 00 00       	push   $0x4675
@@ -1494,17 +1494,17 @@ Desensamblado de la sección .text:
     14c2:	e8 db 28 00 00       	call   0x3da2
     14c7:	83 c4 0c             	add    $0xc,%esp
     14ca:	68 00 20 00 00       	push   $0x2000
-    14cf:	68 a0 89 00 00       	push   $0x89a0
+    14cf:	68 00 8a 00 00       	push   $0x8a00
     14d4:	53                   	push   %ebx
     14d5:	e8 b8 28 00 00       	call   0x3d92
     14da:	83 c4 10             	add    $0x10,%esp
     14dd:	83 f8 05             	cmp    $0x5,%eax
     14e0:	0f 85 a8 00 00 00    	jne    0x158e
-    14e6:	80 3d a0 89 00 00 68 	cmpb   $0x68,0x89a0
+    14e6:	80 3d 00 8a 00 00 68 	cmpb   $0x68,0x8a00
     14ed:	0f 85 b6 00 00 00    	jne    0x15a9
     14f3:	83 ec 04             	sub    $0x4,%esp
     14f6:	6a 0a                	push   $0xa
-    14f8:	68 a0 89 00 00       	push   $0x89a0
+    14f8:	68 00 8a 00 00       	push   $0x8a00
     14fd:	53                   	push   %ebx
     14fe:	e8 97 28 00 00       	call   0x3d9a
     1503:	83 c4 10             	add    $0x10,%esp
@@ -1518,7 +1518,7 @@ Desensamblado de la sección .text:
     1524:	83 c4 08             	add    $0x8,%esp
     1527:	68 1d 47 00 00       	push   $0x471d
     152c:	6a 01                	push   $0x1
-    152e:	e8 98 29 00 00       	call   0x3ecb
+    152e:	e8 9c 29 00 00       	call   0x3ecf
     1533:	83 c4 10             	add    $0x10,%esp
     1536:	8d 65 f8             	lea    -0x8(%ebp),%esp
     1539:	5b                   	pop    %ebx
@@ -1528,37 +1528,37 @@ Desensamblado de la sección .text:
     153d:	83 ec 08             	sub    $0x8,%esp
     1540:	68 80 46 00 00       	push   $0x4680
     1545:	6a 01                	push   $0x1
-    1547:	e8 7f 29 00 00       	call   0x3ecb
+    1547:	e8 83 29 00 00       	call   0x3ecf
     154c:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1553:	e8 22 28 00 00       	call   0x3d7a
     1558:	83 ec 08             	sub    $0x8,%esp
     155b:	68 a0 46 00 00       	push   $0x46a0
     1560:	6a 01                	push   $0x1
-    1562:	e8 64 29 00 00       	call   0x3ecb
+    1562:	e8 68 29 00 00       	call   0x3ecf
     1567:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     156e:	e8 07 28 00 00       	call   0x3d7a
     1573:	83 ec 08             	sub    $0x8,%esp
     1576:	68 b8 46 00 00       	push   $0x46b8
     157b:	6a 01                	push   $0x1
-    157d:	e8 49 29 00 00       	call   0x3ecb
+    157d:	e8 4d 29 00 00       	call   0x3ecf
     1582:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1589:	e8 ec 27 00 00       	call   0x3d7a
     158e:	83 ec 08             	sub    $0x8,%esp
     1591:	68 d6 46 00 00       	push   $0x46d6
     1596:	6a 01                	push   $0x1
-    1598:	e8 2e 29 00 00       	call   0x3ecb
+    1598:	e8 32 29 00 00       	call   0x3ecf
     159d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     15a4:	e8 d1 27 00 00       	call   0x3d7a
     15a9:	83 ec 08             	sub    $0x8,%esp
     15ac:	68 ed 46 00 00       	push   $0x46ed
     15b1:	6a 01                	push   $0x1
-    15b3:	e8 13 29 00 00       	call   0x3ecb
+    15b3:	e8 17 29 00 00       	call   0x3ecf
     15b8:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     15bf:	e8 b6 27 00 00       	call   0x3d7a
     15c4:	83 ec 08             	sub    $0x8,%esp
     15c7:	68 04 47 00 00       	push   $0x4704
     15cc:	6a 01                	push   $0x1
-    15ce:	e8 f8 28 00 00       	call   0x3ecb
+    15ce:	e8 fc 28 00 00       	call   0x3ecf
     15d3:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     15da:	e8 9b 27 00 00       	call   0x3d7a
     15df:	f3 0f 1e fb          	endbr32 
@@ -1568,7 +1568,7 @@ Desensamblado de la sección .text:
     15e7:	83 ec 0c             	sub    $0xc,%esp
     15ea:	68 2c 47 00 00       	push   $0x472c
     15ef:	6a 01                	push   $0x1
-    15f1:	e8 d5 28 00 00       	call   0x3ecb
+    15f1:	e8 d9 28 00 00       	call   0x3ecf
     15f6:	c7 04 24 36 47 00 00 	movl   $0x4736,(%esp)
     15fd:	e8 c8 27 00 00       	call   0x3dca
     1602:	c7 04 24 3a 47 00 00 	movl   $0x473a,(%esp)
@@ -1619,7 +1619,7 @@ Desensamblado de la sección .text:
     16ac:	0f 88 0f 01 00 00    	js     0x17c1
     16b2:	83 ec 04             	sub    $0x4,%esp
     16b5:	68 00 20 00 00       	push   $0x2000
-    16ba:	68 a0 89 00 00       	push   $0x89a0
+    16ba:	68 00 8a 00 00       	push   $0x8a00
     16bf:	50                   	push   %eax
     16c0:	e8 cd 26 00 00       	call   0x3d92
     16c5:	83 c4 10             	add    $0x10,%esp
@@ -1655,7 +1655,7 @@ Desensamblado de la sección .text:
     173e:	83 ec 08             	sub    $0x8,%esp
     1741:	68 d4 47 00 00       	push   $0x47d4
     1746:	6a 01                	push   $0x1
-    1748:	e8 7e 27 00 00       	call   0x3ecb
+    1748:	e8 82 27 00 00       	call   0x3ecf
     174d:	83 c4 10             	add    $0x10,%esp
     1750:	8b 5d fc             	mov    -0x4(%ebp),%ebx
     1753:	c9                   	leave  
@@ -1663,55 +1663,55 @@ Desensamblado de la sección .text:
     1755:	83 ec 08             	sub    $0x8,%esp
     1758:	68 3e 47 00 00       	push   $0x473e
     175d:	6a 01                	push   $0x1
-    175f:	e8 67 27 00 00       	call   0x3ecb
+    175f:	e8 6b 27 00 00       	call   0x3ecf
     1764:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     176b:	e8 0a 26 00 00       	call   0x3d7a
     1770:	83 ec 08             	sub    $0x8,%esp
     1773:	68 51 47 00 00       	push   $0x4751
     1778:	6a 01                	push   $0x1
-    177a:	e8 4c 27 00 00       	call   0x3ecb
+    177a:	e8 50 27 00 00       	call   0x3ecf
     177f:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1786:	e8 ef 25 00 00       	call   0x3d7a
     178b:	83 ec 08             	sub    $0x8,%esp
     178e:	68 63 47 00 00       	push   $0x4763
     1793:	6a 01                	push   $0x1
-    1795:	e8 31 27 00 00       	call   0x3ecb
+    1795:	e8 35 27 00 00       	call   0x3ecf
     179a:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     17a1:	e8 d4 25 00 00       	call   0x3d7a
     17a6:	83 ec 08             	sub    $0x8,%esp
     17a9:	68 44 53 00 00       	push   $0x5344
     17ae:	6a 01                	push   $0x1
-    17b0:	e8 16 27 00 00       	call   0x3ecb
+    17b0:	e8 1a 27 00 00       	call   0x3ecf
     17b5:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     17bc:	e8 b9 25 00 00       	call   0x3d7a
     17c1:	83 ec 08             	sub    $0x8,%esp
     17c4:	68 78 47 00 00       	push   $0x4778
     17c9:	6a 01                	push   $0x1
-    17cb:	e8 fb 26 00 00       	call   0x3ecb
+    17cb:	e8 ff 26 00 00       	call   0x3ecf
     17d0:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     17d7:	e8 9e 25 00 00       	call   0x3d7a
     17dc:	83 ec 08             	sub    $0x8,%esp
     17df:	68 89 47 00 00       	push   $0x4789
     17e4:	6a 01                	push   $0x1
-    17e6:	e8 e0 26 00 00       	call   0x3ecb
+    17e6:	e8 e4 26 00 00       	call   0x3ecf
     17eb:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     17f2:	e8 83 25 00 00       	call   0x3d7a
     17f7:	83 ec 08             	sub    $0x8,%esp
     17fa:	68 9a 47 00 00       	push   $0x479a
     17ff:	6a 01                	push   $0x1
-    1801:	e8 c5 26 00 00       	call   0x3ecb
+    1801:	e8 c9 26 00 00       	call   0x3ecf
     1806:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     180d:	e8 68 25 00 00       	call   0x3d7a
     1812:	83 ec 08             	sub    $0x8,%esp
     1815:	68 6c 53 00 00       	push   $0x536c
     181a:	6a 01                	push   $0x1
-    181c:	e8 aa 26 00 00       	call   0x3ecb
+    181c:	e8 ae 26 00 00       	call   0x3ecf
     1821:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1828:	e8 4d 25 00 00       	call   0x3d7a
     182d:	83 ec 08             	sub    $0x8,%esp
     1830:	68 b8 47 00 00       	push   $0x47b8
     1835:	6a 01                	push   $0x1
-    1837:	e8 8f 26 00 00       	call   0x3ecb
+    1837:	e8 93 26 00 00       	call   0x3ecf
     183c:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1843:	e8 32 25 00 00       	call   0x3d7a
     1848:	f3 0f 1e fb          	endbr32 
@@ -1723,7 +1723,7 @@ Desensamblado de la sección .text:
     1852:	83 ec 54             	sub    $0x54,%esp
     1855:	68 e1 47 00 00       	push   $0x47e1
     185a:	6a 01                	push   $0x1
-    185c:	e8 6a 26 00 00       	call   0x3ecb
+    185c:	e8 6e 26 00 00       	call   0x3ecf
     1861:	c6 45 e5 43          	movb   $0x43,-0x1b(%ebp)
     1865:	c6 45 e7 00          	movb   $0x0,-0x19(%ebp)
     1869:	83 c4 10             	add    $0x10,%esp
@@ -1805,7 +1805,7 @@ Desensamblado de la sección .text:
     195b:	50                   	push   %eax
     195c:	68 f4 47 00 00       	push   $0x47f4
     1961:	6a 01                	push   $0x1
-    1963:	e8 63 25 00 00       	call   0x3ecb
+    1963:	e8 67 25 00 00       	call   0x3ecf
     1968:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     196f:	e8 06 24 00 00       	call   0x3d7a
     1974:	83 ec 0c             	sub    $0xc,%esp
@@ -1853,7 +1853,7 @@ Desensamblado de la sección .text:
     19f3:	50                   	push   %eax
     19f4:	68 10 48 00 00       	push   $0x4810
     19f9:	6a 01                	push   $0x1
-    19fb:	e8 cb 24 00 00       	call   0x3ecb
+    19fb:	e8 cf 24 00 00       	call   0x3ecf
     1a00:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1a07:	e8 6e 23 00 00       	call   0x3d7a
     1a0c:	83 ec 04             	sub    $0x4,%esp
@@ -1861,7 +1861,7 @@ Desensamblado de la sección .text:
     1a12:	50                   	push   %eax
     1a13:	68 29 48 00 00       	push   $0x4829
     1a18:	6a 01                	push   $0x1
-    1a1a:	e8 ac 24 00 00       	call   0x3ecb
+    1a1a:	e8 b0 24 00 00       	call   0x3ecf
     1a1f:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1a26:	e8 4f 23 00 00       	call   0x3d7a
     1a2b:	83 ec 0c             	sub    $0xc,%esp
@@ -1875,13 +1875,13 @@ Desensamblado de la sección .text:
     1a46:	83 ec 08             	sub    $0x8,%esp
     1a49:	68 90 53 00 00       	push   $0x5390
     1a4e:	6a 01                	push   $0x1
-    1a50:	e8 76 24 00 00       	call   0x3ecb
+    1a50:	e8 7a 24 00 00       	call   0x3ecf
     1a55:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1a5c:	e8 19 23 00 00       	call   0x3d7a
     1a61:	83 ec 08             	sub    $0x8,%esp
     1a64:	68 c9 50 00 00       	push   $0x50c9
     1a69:	6a 01                	push   $0x1
-    1a6b:	e8 5b 24 00 00       	call   0x3ecb
+    1a6b:	e8 5f 24 00 00       	call   0x3ecf
     1a70:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1a77:	e8 fe 22 00 00       	call   0x3d7a
     1a7c:	83 ec 08             	sub    $0x8,%esp
@@ -1959,7 +1959,7 @@ Desensamblado de la sección .text:
     1b64:	83 ec 08             	sub    $0x8,%esp
     1b67:	68 46 48 00 00       	push   $0x4846
     1b6c:	6a 01                	push   $0x1
-    1b6e:	e8 58 23 00 00       	call   0x3ecb
+    1b6e:	e8 5c 23 00 00       	call   0x3ecf
     1b73:	83 c4 10             	add    $0x10,%esp
     1b76:	8d 65 f4             	lea    -0xc(%ebp),%esp
     1b79:	5b                   	pop    %ebx
@@ -1976,7 +1976,7 @@ Desensamblado de la sección .text:
     1b88:	83 ec 14             	sub    $0x14,%esp
     1b8b:	68 54 48 00 00       	push   $0x4854
     1b90:	6a 01                	push   $0x1
-    1b92:	e8 34 23 00 00       	call   0x3ecb
+    1b92:	e8 38 23 00 00       	call   0x3ecf
     1b97:	c7 04 24 e1 4a 00 00 	movl   $0x4ae1,(%esp)
     1b9e:	e8 27 22 00 00       	call   0x3dca
     1ba3:	e8 ca 21 00 00       	call   0x3d72
@@ -1991,7 +1991,7 @@ Desensamblado de la sección .text:
     1bbf:	83 ec 08             	sub    $0x8,%esp
     1bc2:	68 c9 50 00 00       	push   $0x50c9
     1bc7:	6a 01                	push   $0x1
-    1bc9:	e8 fd 22 00 00       	call   0x3ecb
+    1bc9:	e8 01 23 00 00       	call   0x3ecf
     1bce:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1bd5:	e8 a0 21 00 00       	call   0x3d7a
     1bda:	bb 61 00 00 00       	mov    $0x61,%ebx
@@ -2039,7 +2039,7 @@ Desensamblado de la sección .text:
     1c66:	83 c4 08             	add    $0x8,%esp
     1c69:	68 69 48 00 00       	push   $0x4869
     1c6e:	6a 01                	push   $0x1
-    1c70:	e8 56 22 00 00       	call   0x3ecb
+    1c70:	e8 5a 22 00 00       	call   0x3ecf
     1c75:	8d 65 f4             	lea    -0xc(%ebp),%esp
     1c78:	5b                   	pop    %ebx
     1c79:	5e                   	pop    %esi
@@ -2056,7 +2056,7 @@ Desensamblado de la sección .text:
     1c8f:	83 ec 1c             	sub    $0x1c,%esp
     1c92:	68 78 48 00 00       	push   $0x4878
     1c97:	6a 01                	push   $0x1
-    1c99:	e8 2d 22 00 00       	call   0x3ecb
+    1c99:	e8 31 22 00 00       	call   0x3ecf
     1c9e:	c7 04 24 85 48 00 00 	movl   $0x4885,(%esp)
     1ca5:	e8 20 21 00 00       	call   0x3dca
     1caa:	83 c4 08             	add    $0x8,%esp
@@ -2102,13 +2102,13 @@ Desensamblado de la sección .text:
     1d2c:	83 ec 08             	sub    $0x8,%esp
     1d2f:	68 88 48 00 00       	push   $0x4888
     1d34:	6a 01                	push   $0x1
-    1d36:	e8 90 21 00 00       	call   0x3ecb
+    1d36:	e8 94 21 00 00       	call   0x3ecf
     1d3b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1d42:	e8 33 20 00 00       	call   0x3d7a
     1d47:	83 ec 08             	sub    $0x8,%esp
     1d4a:	68 9e 48 00 00       	push   $0x489e
     1d4f:	6a 01                	push   $0x1
-    1d51:	e8 75 21 00 00       	call   0x3ecb
+    1d51:	e8 79 21 00 00       	call   0x3ecf
     1d56:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1d5d:	e8 18 20 00 00       	call   0x3d7a
     1d62:	83 ec 0c             	sub    $0xc,%esp
@@ -2146,13 +2146,13 @@ Desensamblado de la sección .text:
     1dc6:	83 ec 08             	sub    $0x8,%esp
     1dc9:	68 b2 48 00 00       	push   $0x48b2
     1dce:	6a 01                	push   $0x1
-    1dd0:	e8 f6 20 00 00       	call   0x3ecb
+    1dd0:	e8 fa 20 00 00       	call   0x3ecf
     1dd5:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     1ddc:	e8 99 1f 00 00       	call   0x3d7a
     1de1:	83 ec 08             	sub    $0x8,%esp
     1de4:	68 c7 48 00 00       	push   $0x48c7
     1de9:	6a 01                	push   $0x1
-    1deb:	e8 db 20 00 00       	call   0x3ecb
+    1deb:	e8 df 20 00 00       	call   0x3ecf
     1df0:	83 c4 10             	add    $0x10,%esp
     1df3:	8b 5d fc             	mov    -0x4(%ebp),%ebx
     1df6:	c9                   	leave  
@@ -2164,7 +2164,7 @@ Desensamblado de la sección .text:
     1e00:	83 ec 0c             	sub    $0xc,%esp
     1e03:	68 d2 48 00 00       	push   $0x48d2
     1e08:	6a 01                	push   $0x1
-    1e0a:	e8 bc 20 00 00       	call   0x3ecb
+    1e0a:	e8 c0 20 00 00       	call   0x3ecf
     1e0f:	c7 04 24 5b 49 00 00 	movl   $0x495b,(%esp)
     1e16:	e8 af 1f 00 00       	call   0x3dca
     1e1b:	c7 04 24 f8 49 00 00 	movl   $0x49f8,(%esp)
@@ -2223,13 +2223,13 @@ Desensamblado de la sección .text:
     1ee5:	0f 88 e2 03 00 00    	js     0x22cd
     1eeb:	83 ec 04             	sub    $0x4,%esp
     1eee:	68 00 20 00 00       	push   $0x2000
-    1ef3:	68 a0 89 00 00       	push   $0x89a0
+    1ef3:	68 00 8a 00 00       	push   $0x8a00
     1ef8:	50                   	push   %eax
     1ef9:	e8 94 1e 00 00       	call   0x3d92
     1efe:	83 c4 10             	add    $0x10,%esp
     1f01:	83 f8 02             	cmp    $0x2,%eax
     1f04:	0f 85 de 03 00 00    	jne    0x22e8
-    1f0a:	80 3d a0 89 00 00 66 	cmpb   $0x66,0x89a0
+    1f0a:	80 3d 00 8a 00 00 66 	cmpb   $0x66,0x8a00
     1f11:	0f 85 d1 03 00 00    	jne    0x22e8
     1f17:	83 ec 0c             	sub    $0xc,%esp
     1f1a:	53                   	push   %ebx
@@ -2288,7 +2288,7 @@ Desensamblado de la sección .text:
     1fe5:	0f 88 d5 03 00 00    	js     0x23c0
     1feb:	83 ec 04             	sub    $0x4,%esp
     1fee:	68 00 20 00 00       	push   $0x2000
-    1ff3:	68 a0 89 00 00       	push   $0x89a0
+    1ff3:	68 00 8a 00 00       	push   $0x8a00
     1ff8:	50                   	push   %eax
     1ff9:	e8 94 1d 00 00       	call   0x3d92
     1ffe:	83 c4 10             	add    $0x10,%esp
@@ -2435,7 +2435,7 @@ Desensamblado de la sección .text:
     222f:	83 ec 08             	sub    $0x8,%esp
     2232:	68 da 4b 00 00       	push   $0x4bda
     2237:	6a 01                	push   $0x1
-    2239:	e8 8d 1c 00 00       	call   0x3ecb
+    2239:	e8 91 1c 00 00       	call   0x3ecf
     223e:	83 c4 10             	add    $0x10,%esp
     2241:	8b 5d fc             	mov    -0x4(%ebp),%ebx
     2244:	c9                   	leave  
@@ -2443,223 +2443,223 @@ Desensamblado de la sección .text:
     2246:	83 ec 08             	sub    $0x8,%esp
     2249:	68 df 48 00 00       	push   $0x48df
     224e:	6a 01                	push   $0x1
-    2250:	e8 76 1c 00 00       	call   0x3ecb
+    2250:	e8 7a 1c 00 00       	call   0x3ecf
     2255:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     225c:	e8 19 1b 00 00       	call   0x3d7a
     2261:	83 ec 08             	sub    $0x8,%esp
     2264:	68 f7 48 00 00       	push   $0x48f7
     2269:	6a 01                	push   $0x1
-    226b:	e8 5b 1c 00 00       	call   0x3ecb
+    226b:	e8 5f 1c 00 00       	call   0x3ecf
     2270:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2277:	e8 fe 1a 00 00       	call   0x3d7a
     227c:	83 ec 08             	sub    $0x8,%esp
     227f:	68 c4 53 00 00       	push   $0x53c4
     2284:	6a 01                	push   $0x1
-    2286:	e8 40 1c 00 00       	call   0x3ecb
+    2286:	e8 44 1c 00 00       	call   0x3ecf
     228b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2292:	e8 e3 1a 00 00       	call   0x3d7a
     2297:	83 ec 08             	sub    $0x8,%esp
     229a:	68 13 49 00 00       	push   $0x4913
     229f:	6a 01                	push   $0x1
-    22a1:	e8 25 1c 00 00       	call   0x3ecb
+    22a1:	e8 29 1c 00 00       	call   0x3ecf
     22a6:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     22ad:	e8 c8 1a 00 00       	call   0x3d7a
     22b2:	83 ec 08             	sub    $0x8,%esp
     22b5:	68 37 49 00 00       	push   $0x4937
     22ba:	6a 01                	push   $0x1
-    22bc:	e8 0a 1c 00 00       	call   0x3ecb
+    22bc:	e8 0e 1c 00 00       	call   0x3ecf
     22c1:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     22c8:	e8 ad 1a 00 00       	call   0x3d7a
     22cd:	83 ec 08             	sub    $0x8,%esp
     22d0:	68 5e 49 00 00       	push   $0x495e
     22d5:	6a 01                	push   $0x1
-    22d7:	e8 ef 1b 00 00       	call   0x3ecb
+    22d7:	e8 f3 1b 00 00       	call   0x3ecf
     22dc:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     22e3:	e8 92 1a 00 00       	call   0x3d7a
     22e8:	83 ec 08             	sub    $0x8,%esp
     22eb:	68 77 49 00 00       	push   $0x4977
     22f0:	6a 01                	push   $0x1
-    22f2:	e8 d4 1b 00 00       	call   0x3ecb
+    22f2:	e8 d8 1b 00 00       	call   0x3ecf
     22f7:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     22fe:	e8 77 1a 00 00       	call   0x3d7a
     2303:	83 ec 08             	sub    $0x8,%esp
     2306:	68 ec 53 00 00       	push   $0x53ec
     230b:	6a 01                	push   $0x1
-    230d:	e8 b9 1b 00 00       	call   0x3ecb
+    230d:	e8 bd 1b 00 00       	call   0x3ecf
     2312:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2319:	e8 5c 1a 00 00       	call   0x3d7a
     231e:	83 ec 08             	sub    $0x8,%esp
     2321:	68 9d 49 00 00       	push   $0x499d
     2326:	6a 01                	push   $0x1
-    2328:	e8 9e 1b 00 00       	call   0x3ecb
+    2328:	e8 a2 1b 00 00       	call   0x3ecf
     232d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2334:	e8 41 1a 00 00       	call   0x3d7a
     2339:	83 ec 08             	sub    $0x8,%esp
     233c:	68 10 54 00 00       	push   $0x5410
     2341:	6a 01                	push   $0x1
-    2343:	e8 83 1b 00 00       	call   0x3ecb
+    2343:	e8 87 1b 00 00       	call   0x3ecf
     2348:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     234f:	e8 26 1a 00 00       	call   0x3d7a
     2354:	83 ec 08             	sub    $0x8,%esp
     2357:	68 b5 49 00 00       	push   $0x49b5
     235c:	6a 01                	push   $0x1
-    235e:	e8 68 1b 00 00       	call   0x3ecb
+    235e:	e8 6c 1b 00 00       	call   0x3ecf
     2363:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     236a:	e8 0b 1a 00 00       	call   0x3d7a
     236f:	83 ec 08             	sub    $0x8,%esp
     2372:	68 d2 49 00 00       	push   $0x49d2
     2377:	6a 01                	push   $0x1
-    2379:	e8 4d 1b 00 00       	call   0x3ecb
+    2379:	e8 51 1b 00 00       	call   0x3ecf
     237e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2385:	e8 f0 19 00 00       	call   0x3d7a
     238a:	83 ec 08             	sub    $0x8,%esp
     238d:	68 d2 49 00 00       	push   $0x49d2
     2392:	6a 01                	push   $0x1
-    2394:	e8 32 1b 00 00       	call   0x3ecb
+    2394:	e8 36 1b 00 00       	call   0x3ecf
     2399:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     23a0:	e8 d5 19 00 00       	call   0x3d7a
     23a5:	83 ec 08             	sub    $0x8,%esp
     23a8:	68 00 4a 00 00       	push   $0x4a00
     23ad:	6a 01                	push   $0x1
-    23af:	e8 17 1b 00 00       	call   0x3ecb
+    23af:	e8 1b 1b 00 00       	call   0x3ecf
     23b4:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     23bb:	e8 ba 19 00 00       	call   0x3d7a
     23c0:	83 ec 08             	sub    $0x8,%esp
     23c3:	68 13 4a 00 00       	push   $0x4a13
     23c8:	6a 01                	push   $0x1
-    23ca:	e8 fc 1a 00 00       	call   0x3ecb
+    23ca:	e8 00 1b 00 00       	call   0x3ecf
     23cf:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     23d6:	e8 9f 19 00 00       	call   0x3d7a
     23db:	83 ec 08             	sub    $0x8,%esp
     23de:	68 2b 4a 00 00       	push   $0x4a2b
     23e3:	6a 01                	push   $0x1
-    23e5:	e8 e1 1a 00 00       	call   0x3ecb
+    23e5:	e8 e5 1a 00 00       	call   0x3ecf
     23ea:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     23f1:	e8 84 19 00 00       	call   0x3d7a
     23f6:	83 ec 08             	sub    $0x8,%esp
     23f9:	68 34 54 00 00       	push   $0x5434
     23fe:	6a 01                	push   $0x1
-    2400:	e8 c6 1a 00 00       	call   0x3ecb
+    2400:	e8 ca 1a 00 00       	call   0x3ecf
     2405:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     240c:	e8 69 19 00 00       	call   0x3d7a
     2411:	83 ec 08             	sub    $0x8,%esp
     2414:	68 4f 4a 00 00       	push   $0x4a4f
     2419:	6a 01                	push   $0x1
-    241b:	e8 ab 1a 00 00       	call   0x3ecb
+    241b:	e8 af 1a 00 00       	call   0x3ecf
     2420:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2427:	e8 4e 19 00 00       	call   0x3d7a
     242c:	83 ec 08             	sub    $0x8,%esp
     242f:	68 74 4a 00 00       	push   $0x4a74
     2434:	6a 01                	push   $0x1
-    2436:	e8 90 1a 00 00       	call   0x3ecb
+    2436:	e8 94 1a 00 00       	call   0x3ecf
     243b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2442:	e8 33 19 00 00       	call   0x3d7a
     2447:	83 ec 08             	sub    $0x8,%esp
     244a:	68 90 4a 00 00       	push   $0x4a90
     244f:	6a 01                	push   $0x1
-    2451:	e8 75 1a 00 00       	call   0x3ecb
+    2451:	e8 79 1a 00 00       	call   0x3ecf
     2456:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     245d:	e8 18 19 00 00       	call   0x3d7a
     2462:	83 ec 08             	sub    $0x8,%esp
     2465:	68 a6 4a 00 00       	push   $0x4aa6
     246a:	6a 01                	push   $0x1
-    246c:	e8 5a 1a 00 00       	call   0x3ecb
+    246c:	e8 5e 1a 00 00       	call   0x3ecf
     2471:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2478:	e8 fd 18 00 00       	call   0x3d7a
     247d:	83 ec 08             	sub    $0x8,%esp
     2480:	68 bf 4a 00 00       	push   $0x4abf
     2485:	6a 01                	push   $0x1
-    2487:	e8 3f 1a 00 00       	call   0x3ecb
+    2487:	e8 43 1a 00 00       	call   0x3ecf
     248c:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2493:	e8 e2 18 00 00       	call   0x3d7a
     2498:	83 ec 08             	sub    $0x8,%esp
     249b:	68 5c 54 00 00       	push   $0x545c
     24a0:	6a 01                	push   $0x1
-    24a2:	e8 24 1a 00 00       	call   0x3ecb
+    24a2:	e8 28 1a 00 00       	call   0x3ecf
     24a7:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     24ae:	e8 c7 18 00 00       	call   0x3d7a
     24b3:	83 ec 08             	sub    $0x8,%esp
     24b6:	68 80 54 00 00       	push   $0x5480
     24bb:	6a 01                	push   $0x1
-    24bd:	e8 09 1a 00 00       	call   0x3ecb
+    24bd:	e8 0d 1a 00 00       	call   0x3ecf
     24c2:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     24c9:	e8 ac 18 00 00       	call   0x3d7a
     24ce:	83 ec 08             	sub    $0x8,%esp
     24d1:	68 a4 54 00 00       	push   $0x54a4
     24d6:	6a 01                	push   $0x1
-    24d8:	e8 ee 19 00 00       	call   0x3ecb
+    24d8:	e8 f2 19 00 00       	call   0x3ecf
     24dd:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     24e4:	e8 91 18 00 00       	call   0x3d7a
     24e9:	83 ec 08             	sub    $0x8,%esp
     24ec:	68 e3 4a 00 00       	push   $0x4ae3
     24f1:	6a 01                	push   $0x1
-    24f3:	e8 d3 19 00 00       	call   0x3ecb
+    24f3:	e8 d7 19 00 00       	call   0x3ecf
     24f8:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     24ff:	e8 76 18 00 00       	call   0x3d7a
     2504:	83 ec 08             	sub    $0x8,%esp
     2507:	68 fe 4a 00 00       	push   $0x4afe
     250c:	6a 01                	push   $0x1
-    250e:	e8 b8 19 00 00       	call   0x3ecb
+    250e:	e8 bc 19 00 00       	call   0x3ecf
     2513:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     251a:	e8 5b 18 00 00       	call   0x3d7a
     251f:	83 ec 08             	sub    $0x8,%esp
     2522:	68 19 4b 00 00       	push   $0x4b19
     2527:	6a 01                	push   $0x1
-    2529:	e8 9d 19 00 00       	call   0x3ecb
+    2529:	e8 a1 19 00 00       	call   0x3ecf
     252e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2535:	e8 40 18 00 00       	call   0x3d7a
     253a:	83 ec 08             	sub    $0x8,%esp
     253d:	68 36 4b 00 00       	push   $0x4b36
     2542:	6a 01                	push   $0x1
-    2544:	e8 82 19 00 00       	call   0x3ecb
+    2544:	e8 86 19 00 00       	call   0x3ecf
     2549:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2550:	e8 25 18 00 00       	call   0x3d7a
     2555:	83 ec 08             	sub    $0x8,%esp
     2558:	68 52 4b 00 00       	push   $0x4b52
     255d:	6a 01                	push   $0x1
-    255f:	e8 67 19 00 00       	call   0x3ecb
+    255f:	e8 6b 19 00 00       	call   0x3ecf
     2564:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     256b:	e8 0a 18 00 00       	call   0x3d7a
     2570:	83 ec 08             	sub    $0x8,%esp
     2573:	68 6e 4b 00 00       	push   $0x4b6e
     2578:	6a 01                	push   $0x1
-    257a:	e8 4c 19 00 00       	call   0x3ecb
+    257a:	e8 50 19 00 00       	call   0x3ecf
     257f:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2586:	e8 ef 17 00 00       	call   0x3d7a
     258b:	83 ec 08             	sub    $0x8,%esp
     258e:	68 86 4b 00 00       	push   $0x4b86
     2593:	6a 01                	push   $0x1
-    2595:	e8 31 19 00 00       	call   0x3ecb
+    2595:	e8 35 19 00 00       	call   0x3ecf
     259a:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     25a1:	e8 d4 17 00 00       	call   0x3d7a
     25a6:	83 ec 08             	sub    $0x8,%esp
     25a9:	68 9d 49 00 00       	push   $0x499d
     25ae:	6a 01                	push   $0x1
-    25b0:	e8 16 19 00 00       	call   0x3ecb
+    25b0:	e8 1a 19 00 00       	call   0x3ecf
     25b5:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     25bc:	e8 b9 17 00 00       	call   0x3d7a
     25c1:	83 ec 08             	sub    $0x8,%esp
     25c4:	68 9e 4b 00 00       	push   $0x4b9e
     25c9:	6a 01                	push   $0x1
-    25cb:	e8 fb 18 00 00       	call   0x3ecb
+    25cb:	e8 ff 18 00 00       	call   0x3ecf
     25d0:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     25d7:	e8 9e 17 00 00       	call   0x3d7a
     25dc:	83 ec 08             	sub    $0x8,%esp
     25df:	68 c8 54 00 00       	push   $0x54c8
     25e4:	6a 01                	push   $0x1
-    25e6:	e8 e0 18 00 00       	call   0x3ecb
+    25e6:	e8 e4 18 00 00       	call   0x3ecf
     25eb:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     25f2:	e8 83 17 00 00       	call   0x3d7a
     25f7:	83 ec 08             	sub    $0x8,%esp
     25fa:	68 b3 4b 00 00       	push   $0x4bb3
     25ff:	6a 01                	push   $0x1
-    2601:	e8 c5 18 00 00       	call   0x3ecb
+    2601:	e8 c9 18 00 00       	call   0x3ecf
     2606:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     260d:	e8 68 17 00 00       	call   0x3d7a
     2612:	83 ec 08             	sub    $0x8,%esp
     2615:	68 c8 4b 00 00       	push   $0x4bc8
     261a:	6a 01                	push   $0x1
-    261c:	e8 aa 18 00 00       	call   0x3ecb
+    261c:	e8 ae 18 00 00       	call   0x3ecf
     2621:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2628:	e8 4d 17 00 00       	call   0x3d7a
     262d:	f3 0f 1e fb          	endbr32 
@@ -2671,7 +2671,7 @@ Desensamblado de la sección .text:
     2637:	83 ec 14             	sub    $0x14,%esp
     263a:	68 e5 4b 00 00       	push   $0x4be5
     263f:	6a 01                	push   $0x1
-    2641:	e8 85 18 00 00       	call   0x3ecb
+    2641:	e8 89 18 00 00       	call   0x3ecf
     2646:	c7 04 24 f4 4b 00 00 	movl   $0x4bf4,(%esp)
     264d:	e8 78 17 00 00       	call   0x3dca
     2652:	83 c4 10             	add    $0x10,%esp
@@ -2680,14 +2680,14 @@ Desensamblado de la sección .text:
     265c:	83 ec 08             	sub    $0x8,%esp
     265f:	68 fd 4b 00 00       	push   $0x4bfd
     2664:	6a 01                	push   $0x1
-    2666:	e8 60 18 00 00       	call   0x3ecb
+    2666:	e8 64 18 00 00       	call   0x3ecf
     266b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2672:	e8 03 17 00 00       	call   0x3d7a
     2677:	50                   	push   %eax
     2678:	56                   	push   %esi
     2679:	68 15 4c 00 00       	push   $0x4c15
     267e:	6a 01                	push   $0x1
-    2680:	e8 46 18 00 00       	call   0x3ecb
+    2680:	e8 4a 18 00 00       	call   0x3ecf
     2685:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     268c:	e8 e9 16 00 00       	call   0x3d7a
     2691:	83 ec 0c             	sub    $0xc,%esp
@@ -2712,7 +2712,7 @@ Desensamblado de la sección .text:
     26da:	7f b5                	jg     0x2691
     26dc:	83 ec 04             	sub    $0x4,%esp
     26df:	56                   	push   %esi
-    26e0:	68 a0 89 00 00       	push   $0x89a0
+    26e0:	68 00 8a 00 00       	push   $0x8a00
     26e5:	57                   	push   %edi
     26e6:	e8 af 16 00 00       	call   0x3d9a
     26eb:	83 c4 10             	add    $0x10,%esp
@@ -2723,7 +2723,7 @@ Desensamblado de la sección .text:
     26f7:	83 ec 08             	sub    $0x8,%esp
     26fa:	68 27 4c 00 00       	push   $0x4c27
     26ff:	6a 01                	push   $0x1
-    2701:	e8 c5 17 00 00       	call   0x3ecb
+    2701:	e8 c9 17 00 00       	call   0x3ecf
     2706:	83 c4 10             	add    $0x10,%esp
     2709:	8d 65 f4             	lea    -0xc(%ebp),%esp
     270c:	5b                   	pop    %ebx
@@ -2740,7 +2740,7 @@ Desensamblado de la sección .text:
     271b:	83 ec 14             	sub    $0x14,%esp
     271e:	68 34 4c 00 00       	push   $0x4c34
     2723:	6a 01                	push   $0x1
-    2725:	e8 a1 17 00 00       	call   0x3ecb
+    2725:	e8 a5 17 00 00       	call   0x3ecf
     272a:	c7 04 24 50 4c 00 00 	movl   $0x4c50,(%esp)
     2731:	e8 94 16 00 00       	call   0x3dca
     2736:	83 c4 08             	add    $0x8,%esp
@@ -2757,11 +2757,11 @@ Desensamblado de la sección .text:
     275b:	83 ec 04             	sub    $0x4,%esp
     275e:	68 58 02 00 00       	push   $0x258
     2763:	53                   	push   %ebx
-    2764:	68 a0 89 00 00       	push   $0x89a0
+    2764:	68 00 8a 00 00       	push   $0x8a00
     2769:	e8 bf 14 00 00       	call   0x3c2d
     276e:	83 c4 0c             	add    $0xc,%esp
     2771:	68 58 02 00 00       	push   $0x258
-    2776:	68 a0 89 00 00       	push   $0x89a0
+    2776:	68 00 8a 00 00       	push   $0x8a00
     277b:	56                   	push   %esi
     277c:	e8 19 16 00 00       	call   0x3d9a
     2781:	83 c4 10             	add    $0x10,%esp
@@ -2772,13 +2772,13 @@ Desensamblado de la sección .text:
     2790:	83 ec 08             	sub    $0x8,%esp
     2793:	68 42 4c 00 00       	push   $0x4c42
     2798:	6a 01                	push   $0x1
-    279a:	e8 2c 17 00 00       	call   0x3ecb
+    279a:	e8 30 17 00 00       	call   0x3ecf
     279f:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     27a6:	e8 cf 15 00 00       	call   0x3d7a
     27ab:	83 ec 08             	sub    $0x8,%esp
     27ae:	68 58 4c 00 00       	push   $0x4c58
     27b3:	6a 01                	push   $0x1
-    27b5:	e8 11 17 00 00       	call   0x3ecb
+    27b5:	e8 15 17 00 00       	call   0x3ecf
     27ba:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     27c1:	e8 b4 15 00 00       	call   0x3d7a
     27c6:	83 ec 0c             	sub    $0xc,%esp
@@ -2796,7 +2796,7 @@ Desensamblado de la sección .text:
     27ec:	bb 00 00 00 00       	mov    $0x0,%ebx
     27f1:	83 ec 04             	sub    $0x4,%esp
     27f4:	68 2c 01 00 00       	push   $0x12c
-    27f9:	68 a0 89 00 00       	push   $0x89a0
+    27f9:	68 00 8a 00 00       	push   $0x8a00
     27fe:	57                   	push   %edi
     27ff:	e8 8e 15 00 00       	call   0x3d92
     2804:	83 c4 10             	add    $0x10,%esp
@@ -2805,14 +2805,14 @@ Desensamblado de la sección .text:
     280b:	0f 84 99 00 00 00    	je     0x28aa
     2811:	3d 2c 01 00 00       	cmp    $0x12c,%eax
     2816:	75 5c                	jne    0x2874
-    2818:	0f be 0d a0 89 00 00 	movsbl 0x89a0,%ecx
+    2818:	0f be 0d 00 8a 00 00 	movsbl 0x8a00,%ecx
     281f:	89 da                	mov    %ebx,%edx
     2821:	c1 ea 1f             	shr    $0x1f,%edx
     2824:	01 da                	add    %ebx,%edx
     2826:	d1 fa                	sar    %edx
     2828:	39 d1                	cmp    %edx,%ecx
     282a:	75 63                	jne    0x288f
-    282c:	0f be 0d cb 8a 00 00 	movsbl 0x8acb,%ecx
+    282c:	0f be 0d 2b 8b 00 00 	movsbl 0x8b2b,%ecx
     2833:	39 ca                	cmp    %ecx,%edx
     2835:	75 58                	jne    0x288f
     2837:	01 c6                	add    %eax,%esi
@@ -2821,25 +2821,25 @@ Desensamblado de la sección .text:
     283e:	83 ec 08             	sub    $0x8,%esp
     2841:	68 6e 4c 00 00       	push   $0x4c6e
     2846:	6a 01                	push   $0x1
-    2848:	e8 7e 16 00 00       	call   0x3ecb
+    2848:	e8 82 16 00 00       	call   0x3ecf
     284d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2854:	e8 21 15 00 00       	call   0x3d7a
     2859:	83 ec 08             	sub    $0x8,%esp
     285c:	68 83 4c 00 00       	push   $0x4c83
     2861:	6a 01                	push   $0x1
-    2863:	e8 63 16 00 00       	call   0x3ecb
+    2863:	e8 67 16 00 00       	call   0x3ecf
     2868:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     286f:	e8 06 15 00 00       	call   0x3d7a
     2874:	83 ec 08             	sub    $0x8,%esp
     2877:	68 98 4c 00 00       	push   $0x4c98
     287c:	6a 01                	push   $0x1
-    287e:	e8 48 16 00 00       	call   0x3ecb
+    287e:	e8 4c 16 00 00       	call   0x3ecf
     2883:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     288a:	e8 eb 14 00 00       	call   0x3d7a
     288f:	83 ec 08             	sub    $0x8,%esp
     2892:	68 ac 4c 00 00       	push   $0x4cac
     2897:	6a 01                	push   $0x1
-    2899:	e8 2d 16 00 00       	call   0x3ecb
+    2899:	e8 31 16 00 00       	call   0x3ecf
     289e:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     28a5:	e8 d0 14 00 00       	call   0x3d7a
     28aa:	83 ec 0c             	sub    $0xc,%esp
@@ -2854,7 +2854,7 @@ Desensamblado de la sección .text:
     28cb:	83 c4 08             	add    $0x8,%esp
     28ce:	68 df 4c 00 00       	push   $0x4cdf
     28d3:	6a 01                	push   $0x1
-    28d5:	e8 f1 15 00 00       	call   0x3ecb
+    28d5:	e8 f5 15 00 00       	call   0x3ecf
     28da:	83 c4 10             	add    $0x10,%esp
     28dd:	8d 65 f4             	lea    -0xc(%ebp),%esp
     28e0:	5b                   	pop    %ebx
@@ -2865,7 +2865,7 @@ Desensamblado de la sección .text:
     28e5:	83 ec 08             	sub    $0x8,%esp
     28e8:	68 c5 4c 00 00       	push   $0x4cc5
     28ed:	6a 01                	push   $0x1
-    28ef:	e8 d7 15 00 00       	call   0x3ecb
+    28ef:	e8 db 15 00 00       	call   0x3ecf
     28f4:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     28fb:	e8 7a 14 00 00       	call   0x3d7a
     2900:	f3 0f 1e fb          	endbr32 
@@ -2874,7 +2874,7 @@ Desensamblado de la sección .text:
     2907:	83 ec 10             	sub    $0x10,%esp
     290a:	68 f0 4c 00 00       	push   $0x4cf0
     290f:	6a 01                	push   $0x1
-    2911:	e8 b5 15 00 00       	call   0x3ecb
+    2911:	e8 b9 15 00 00       	call   0x3ecf
     2916:	c7 04 24 2b 4d 00 00 	movl   $0x4d2b,(%esp)
     291d:	e8 c0 14 00 00       	call   0x3de2
     2922:	83 c4 10             	add    $0x10,%esp
@@ -2920,44 +2920,44 @@ Desensamblado de la sección .text:
     29bd:	83 ec 08             	sub    $0x8,%esp
     29c0:	68 3a 4d 00 00       	push   $0x4d3a
     29c5:	6a 01                	push   $0x1
-    29c7:	e8 ff 14 00 00       	call   0x3ecb
+    29c7:	e8 03 15 00 00       	call   0x3ecf
     29cc:	83 c4 10             	add    $0x10,%esp
     29cf:	c9                   	leave  
     29d0:	c3                   	ret    
     29d1:	83 ec 08             	sub    $0x8,%esp
     29d4:	68 ff 4c 00 00       	push   $0x4cff
     29d9:	6a 01                	push   $0x1
-    29db:	e8 eb 14 00 00       	call   0x3ecb
+    29db:	e8 ef 14 00 00       	call   0x3ecf
     29e0:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     29e7:	e8 8e 13 00 00       	call   0x3d7a
     29ec:	83 ec 08             	sub    $0x8,%esp
     29ef:	68 08 55 00 00       	push   $0x5508
     29f4:	6a 01                	push   $0x1
-    29f6:	e8 d0 14 00 00       	call   0x3ecb
+    29f6:	e8 d4 14 00 00       	call   0x3ecf
     29fb:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2a02:	e8 73 13 00 00       	call   0x3d7a
     2a07:	83 ec 08             	sub    $0x8,%esp
     2a0a:	68 68 55 00 00       	push   $0x5568
     2a0f:	6a 01                	push   $0x1
-    2a11:	e8 b5 14 00 00       	call   0x3ecb
+    2a11:	e8 b9 14 00 00       	call   0x3ecf
     2a16:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2a1d:	e8 58 13 00 00       	call   0x3d7a
     2a22:	83 ec 08             	sub    $0x8,%esp
     2a25:	68 d8 55 00 00       	push   $0x55d8
     2a2a:	6a 01                	push   $0x1
-    2a2c:	e8 9a 14 00 00       	call   0x3ecb
+    2a2c:	e8 9e 14 00 00       	call   0x3ecf
     2a31:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2a38:	e8 3d 13 00 00       	call   0x3d7a
     2a3d:	83 ec 08             	sub    $0x8,%esp
     2a40:	68 14 56 00 00       	push   $0x5614
     2a45:	6a 01                	push   $0x1
-    2a47:	e8 7f 14 00 00       	call   0x3ecb
+    2a47:	e8 83 14 00 00       	call   0x3ecf
     2a4c:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2a53:	e8 22 13 00 00       	call   0x3d7a
     2a58:	83 ec 08             	sub    $0x8,%esp
     2a5b:	68 64 56 00 00       	push   $0x5664
     2a60:	6a 01                	push   $0x1
-    2a62:	e8 64 14 00 00       	call   0x3ecb
+    2a62:	e8 68 14 00 00       	call   0x3ecf
     2a67:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2a6e:	e8 07 13 00 00       	call   0x3d7a
     2a73:	f3 0f 1e fb          	endbr32 
@@ -2966,7 +2966,7 @@ Desensamblado de la sección .text:
     2a7a:	83 ec 10             	sub    $0x10,%esp
     2a7d:	68 47 4d 00 00       	push   $0x4d47
     2a82:	6a 01                	push   $0x1
-    2a84:	e8 42 14 00 00       	call   0x3ecb
+    2a84:	e8 46 14 00 00       	call   0x3ecf
     2a89:	c7 04 24 53 4d 00 00 	movl   $0x4d53,(%esp)
     2a90:	e8 4d 13 00 00       	call   0x3de2
     2a95:	83 c4 10             	add    $0x10,%esp
@@ -3017,56 +3017,56 @@ Desensamblado de la sección .text:
     2b48:	83 ec 08             	sub    $0x8,%esp
     2b4b:	68 ee 4d 00 00       	push   $0x4dee
     2b50:	6a 01                	push   $0x1
-    2b52:	e8 74 13 00 00       	call   0x3ecb
+    2b52:	e8 78 13 00 00       	call   0x3ecf
     2b57:	83 c4 10             	add    $0x10,%esp
     2b5a:	c9                   	leave  
     2b5b:	c3                   	ret    
     2b5c:	83 ec 08             	sub    $0x8,%esp
     2b5f:	68 58 4d 00 00       	push   $0x4d58
     2b64:	6a 01                	push   $0x1
-    2b66:	e8 60 13 00 00       	call   0x3ecb
+    2b66:	e8 64 13 00 00       	call   0x3ecf
     2b6b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2b72:	e8 03 12 00 00       	call   0x3d7a
     2b77:	83 ec 08             	sub    $0x8,%esp
     2b7a:	68 6b 4d 00 00       	push   $0x4d6b
     2b7f:	6a 01                	push   $0x1
-    2b81:	e8 45 13 00 00       	call   0x3ecb
+    2b81:	e8 49 13 00 00       	call   0x3ecf
     2b86:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2b8d:	e8 e8 11 00 00       	call   0x3d7a
     2b92:	83 ec 08             	sub    $0x8,%esp
     2b95:	68 7e 4d 00 00       	push   $0x4d7e
     2b9a:	6a 01                	push   $0x1
-    2b9c:	e8 2a 13 00 00       	call   0x3ecb
+    2b9c:	e8 2e 13 00 00       	call   0x3ecf
     2ba1:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2ba8:	e8 cd 11 00 00       	call   0x3d7a
     2bad:	83 ec 08             	sub    $0x8,%esp
     2bb0:	68 8c 4d 00 00       	push   $0x4d8c
     2bb5:	6a 01                	push   $0x1
-    2bb7:	e8 0f 13 00 00       	call   0x3ecb
+    2bb7:	e8 13 13 00 00       	call   0x3ecf
     2bbc:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2bc3:	e8 b2 11 00 00       	call   0x3d7a
     2bc8:	83 ec 08             	sub    $0x8,%esp
     2bcb:	68 d3 41 00 00       	push   $0x41d3
     2bd0:	6a 01                	push   $0x1
-    2bd2:	e8 f4 12 00 00       	call   0x3ecb
+    2bd2:	e8 f8 12 00 00       	call   0x3ecf
     2bd7:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2bde:	e8 97 11 00 00       	call   0x3d7a
     2be3:	83 ec 08             	sub    $0x8,%esp
     2be6:	68 a2 4d 00 00       	push   $0x4da2
     2beb:	6a 01                	push   $0x1
-    2bed:	e8 d9 12 00 00       	call   0x3ecb
+    2bed:	e8 dd 12 00 00       	call   0x3ecf
     2bf2:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2bf9:	e8 7c 11 00 00       	call   0x3d7a
     2bfe:	83 ec 08             	sub    $0x8,%esp
     2c01:	68 c1 4d 00 00       	push   $0x4dc1
     2c06:	6a 01                	push   $0x1
-    2c08:	e8 be 12 00 00       	call   0x3ecb
+    2c08:	e8 c2 12 00 00       	call   0x3ecf
     2c0d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2c14:	e8 61 11 00 00       	call   0x3d7a
     2c19:	83 ec 08             	sub    $0x8,%esp
     2c1c:	68 d9 4d 00 00       	push   $0x4dd9
     2c21:	6a 01                	push   $0x1
-    2c23:	e8 a3 12 00 00       	call   0x3ecb
+    2c23:	e8 a7 12 00 00       	call   0x3ecf
     2c28:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2c2f:	e8 46 11 00 00       	call   0x3d7a
     2c34:	f3 0f 1e fb          	endbr32 
@@ -3076,7 +3076,7 @@ Desensamblado de la sección .text:
     2c3c:	83 ec 0c             	sub    $0xc,%esp
     2c3f:	68 f8 4d 00 00       	push   $0x4df8
     2c44:	6a 01                	push   $0x1
-    2c46:	e8 80 12 00 00       	call   0x3ecb
+    2c46:	e8 84 12 00 00       	call   0x3ecf
     2c4b:	83 c4 08             	add    $0x8,%esp
     2c4e:	68 00 02 00 00       	push   $0x200
     2c53:	68 05 4e 00 00       	push   $0x4e05
@@ -3157,7 +3157,7 @@ Desensamblado de la sección .text:
     2d73:	83 c4 08             	add    $0x8,%esp
     2d76:	68 d5 4e 00 00       	push   $0x4ed5
     2d7b:	6a 01                	push   $0x1
-    2d7d:	e8 49 11 00 00       	call   0x3ecb
+    2d7d:	e8 4d 11 00 00       	call   0x3ecf
     2d82:	83 c4 10             	add    $0x10,%esp
     2d85:	8b 5d fc             	mov    -0x4(%ebp),%ebx
     2d88:	c9                   	leave  
@@ -3165,61 +3165,61 @@ Desensamblado de la sección .text:
     2d8a:	83 ec 08             	sub    $0x8,%esp
     2d8d:	68 0d 4e 00 00       	push   $0x4e0d
     2d92:	6a 01                	push   $0x1
-    2d94:	e8 32 11 00 00       	call   0x3ecb
+    2d94:	e8 36 11 00 00       	call   0x3ecf
     2d99:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2da0:	e8 d5 0f 00 00       	call   0x3d7a
     2da5:	83 ec 08             	sub    $0x8,%esp
     2da8:	68 24 4e 00 00       	push   $0x4e24
     2dad:	6a 01                	push   $0x1
-    2daf:	e8 17 11 00 00       	call   0x3ecb
+    2daf:	e8 1b 11 00 00       	call   0x3ecf
     2db4:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2dbb:	e8 ba 0f 00 00       	call   0x3d7a
     2dc0:	83 ec 08             	sub    $0x8,%esp
     2dc3:	68 49 4e 00 00       	push   $0x4e49
     2dc8:	6a 01                	push   $0x1
-    2dca:	e8 fc 10 00 00       	call   0x3ecb
+    2dca:	e8 00 11 00 00       	call   0x3ecf
     2dcf:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2dd6:	e8 9f 0f 00 00       	call   0x3d7a
     2ddb:	83 ec 08             	sub    $0x8,%esp
     2dde:	68 49 4e 00 00       	push   $0x4e49
     2de3:	6a 01                	push   $0x1
-    2de5:	e8 e1 10 00 00       	call   0x3ecb
+    2de5:	e8 e5 10 00 00       	call   0x3ecf
     2dea:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2df1:	e8 84 0f 00 00       	call   0x3d7a
     2df6:	83 ec 08             	sub    $0x8,%esp
     2df9:	68 67 4e 00 00       	push   $0x4e67
     2dfe:	6a 01                	push   $0x1
-    2e00:	e8 c6 10 00 00       	call   0x3ecb
+    2e00:	e8 ca 10 00 00       	call   0x3ecf
     2e05:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2e0c:	e8 69 0f 00 00       	call   0x3d7a
     2e11:	83 ec 08             	sub    $0x8,%esp
     2e14:	68 84 4e 00 00       	push   $0x4e84
     2e19:	6a 01                	push   $0x1
-    2e1b:	e8 ab 10 00 00       	call   0x3ecb
+    2e1b:	e8 af 10 00 00       	call   0x3ecf
     2e20:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2e27:	e8 4e 0f 00 00       	call   0x3d7a
     2e2c:	83 ec 08             	sub    $0x8,%esp
     2e2f:	68 98 56 00 00       	push   $0x5698
     2e34:	6a 01                	push   $0x1
-    2e36:	e8 90 10 00 00       	call   0x3ecb
+    2e36:	e8 94 10 00 00       	call   0x3ecf
     2e3b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2e42:	e8 33 0f 00 00       	call   0x3d7a
     2e47:	83 ec 08             	sub    $0x8,%esp
     2e4a:	68 a9 4e 00 00       	push   $0x4ea9
     2e4f:	6a 01                	push   $0x1
-    2e51:	e8 75 10 00 00       	call   0x3ecb
+    2e51:	e8 79 10 00 00       	call   0x3ecf
     2e56:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2e5d:	e8 18 0f 00 00       	call   0x3d7a
     2e62:	83 ec 08             	sub    $0x8,%esp
     2e65:	68 b8 56 00 00       	push   $0x56b8
     2e6a:	6a 01                	push   $0x1
-    2e6c:	e8 5a 10 00 00       	call   0x3ecb
+    2e6c:	e8 5e 10 00 00       	call   0x3ecf
     2e71:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2e78:	e8 fd 0e 00 00       	call   0x3d7a
     2e7d:	83 ec 08             	sub    $0x8,%esp
     2e80:	68 c1 4e 00 00       	push   $0x4ec1
     2e85:	6a 01                	push   $0x1
-    2e87:	e8 3f 10 00 00       	call   0x3ecb
+    2e87:	e8 43 10 00 00       	call   0x3ecf
     2e8c:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2e93:	e8 e2 0e 00 00       	call   0x3d7a
     2e98:	f3 0f 1e fb          	endbr32 
@@ -3229,20 +3229,20 @@ Desensamblado de la sección .text:
     2ea0:	83 ec 0c             	sub    $0xc,%esp
     2ea3:	68 e5 4e 00 00       	push   $0x4ee5
     2ea8:	6a 01                	push   $0x1
-    2eaa:	e8 1c 10 00 00       	call   0x3ecb
+    2eaa:	e8 20 10 00 00       	call   0x3ecf
     2eaf:	83 c4 10             	add    $0x10,%esp
     2eb2:	bb 00 00 00 00       	mov    $0x0,%ebx
     2eb7:	eb 5a                	jmp    0x2f13
     2eb9:	83 ec 08             	sub    $0x8,%esp
     2ebc:	68 fc 4e 00 00       	push   $0x4efc
     2ec1:	6a 01                	push   $0x1
-    2ec3:	e8 03 10 00 00       	call   0x3ecb
+    2ec3:	e8 07 10 00 00       	call   0x3ecf
     2ec8:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2ecf:	e8 a6 0e 00 00       	call   0x3d7a
     2ed4:	83 ec 08             	sub    $0x8,%esp
     2ed7:	68 10 4f 00 00       	push   $0x4f10
     2edc:	6a 01                	push   $0x1
-    2ede:	e8 e8 0f 00 00       	call   0x3ecb
+    2ede:	e8 ec 0f 00 00       	call   0x3ecf
     2ee3:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     2eea:	e8 8b 0e 00 00       	call   0x3d7a
     2eef:	83 ec 0c             	sub    $0xc,%esp
@@ -3301,7 +3301,7 @@ Desensamblado de la sección .text:
     2fbb:	83 c4 08             	add    $0x8,%esp
     2fbe:	68 24 4f 00 00       	push   $0x4f24
     2fc3:	6a 01                	push   $0x1
-    2fc5:	e8 01 0f 00 00       	call   0x3ecb
+    2fc5:	e8 05 0f 00 00       	call   0x3ecf
     2fca:	83 c4 10             	add    $0x10,%esp
     2fcd:	8b 5d fc             	mov    -0x4(%ebp),%ebx
     2fd0:	c9                   	leave  
@@ -3313,7 +3313,7 @@ Desensamblado de la sección .text:
     2fda:	83 ec 0c             	sub    $0xc,%esp
     2fdd:	68 38 4f 00 00       	push   $0x4f38
     2fe2:	6a 01                	push   $0x1
-    2fe4:	e8 e2 0e 00 00       	call   0x3ecb
+    2fe4:	e8 e6 0e 00 00       	call   0x3ecf
     2fe9:	83 c4 10             	add    $0x10,%esp
     2fec:	bb 00 00 00 00       	mov    $0x0,%ebx
     2ff1:	81 fb e7 03 00 00    	cmp    $0x3e7,%ebx
@@ -3342,13 +3342,13 @@ Desensamblado de la sección .text:
     3035:	83 ec 08             	sub    $0x8,%esp
     3038:	68 d8 56 00 00       	push   $0x56d8
     303d:	6a 01                	push   $0x1
-    303f:	e8 87 0e 00 00       	call   0x3ecb
+    303f:	e8 8b 0e 00 00       	call   0x3ecf
     3044:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     304b:	e8 2a 0d 00 00       	call   0x3d7a
     3050:	83 ec 08             	sub    $0x8,%esp
     3053:	68 43 4f 00 00       	push   $0x4f43
     3058:	6a 01                	push   $0x1
-    305a:	e8 6c 0e 00 00       	call   0x3ecb
+    305a:	e8 70 0e 00 00       	call   0x3ecf
     305f:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3066:	e8 0f 0d 00 00       	call   0x3d7a
     306b:	83 ec 0c             	sub    $0xc,%esp
@@ -3360,7 +3360,7 @@ Desensamblado de la sección .text:
     307d:	83 ec 08             	sub    $0x8,%esp
     3080:	68 6a 4f 00 00       	push   $0x4f6a
     3085:	6a 01                	push   $0x1
-    3087:	e8 3f 0e 00 00       	call   0x3ecb
+    3087:	e8 43 0e 00 00       	call   0x3ecf
     308c:	83 c4 10             	add    $0x10,%esp
     308f:	8b 5d fc             	mov    -0x4(%ebp),%ebx
     3092:	c9                   	leave  
@@ -3368,7 +3368,7 @@ Desensamblado de la sección .text:
     3094:	83 ec 08             	sub    $0x8,%esp
     3097:	68 57 4f 00 00       	push   $0x4f57
     309c:	6a 01                	push   $0x1
-    309e:	e8 28 0e 00 00       	call   0x3ecb
+    309e:	e8 2c 0e 00 00       	call   0x3ecf
     30a3:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     30aa:	e8 cb 0c 00 00       	call   0x3d7a
     30af:	f3 0f 1e fb          	endbr32 
@@ -3379,8 +3379,8 @@ Desensamblado de la sección .text:
     30b8:	53                   	push   %ebx
     30b9:	83 ec 54             	sub    $0x54,%esp
     30bc:	68 78 4f 00 00       	push   $0x4f78
-    30c1:	ff 35 b8 61 00 00    	pushl  0x61b8
-    30c7:	e8 ff 0d 00 00       	call   0x3ecb
+    30c1:	ff 35 10 62 00 00    	push   0x6210
+    30c7:	e8 03 0e 00 00       	call   0x3ecf
     30cc:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     30d3:	e8 2a 0d 00 00       	call   0x3e02
     30d8:	89 c7                	mov    %eax,%edi
@@ -3406,8 +3406,8 @@ Desensamblado de la sección .text:
     3118:	56                   	push   %esi
     3119:	53                   	push   %ebx
     311a:	68 83 4f 00 00       	push   $0x4f83
-    311f:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3125:	e8 a1 0d 00 00       	call   0x3ecb
+    311f:	ff 35 10 62 00 00    	push   0x6210
+    3125:	e8 a5 0d 00 00       	call   0x3ecf
     312a:	83 c4 14             	add    $0x14,%esp
     312d:	6a 00                	push   $0x0
     312f:	e8 46 0c 00 00       	call   0x3d7a
@@ -3505,14 +3505,14 @@ Desensamblado de la sección .text:
     32a1:	eb c5                	jmp    0x3268
     32a3:	83 ec 08             	sub    $0x8,%esp
     32a6:	68 9e 4f 00 00       	push   $0x4f9e
-    32ab:	ff 35 b8 61 00 00    	pushl  0x61b8
-    32b1:	e8 15 0c 00 00       	call   0x3ecb
+    32ab:	ff 35 10 62 00 00    	push   0x6210
+    32b1:	e8 19 0c 00 00       	call   0x3ecf
     32b6:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     32bd:	e8 b8 0a 00 00       	call   0x3d7a
     32c2:	83 ec 08             	sub    $0x8,%esp
     32c5:	68 b5 4f 00 00       	push   $0x4fb5
-    32ca:	ff 35 b8 61 00 00    	pushl  0x61b8
-    32d0:	e8 f6 0b 00 00       	call   0x3ecb
+    32ca:	ff 35 10 62 00 00    	push   0x6210
+    32d0:	e8 fa 0b 00 00       	call   0x3ecf
     32d5:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     32dc:	e8 99 0a 00 00       	call   0x3d7a
     32e1:	83 ec 0c             	sub    $0xc,%esp
@@ -3520,55 +3520,55 @@ Desensamblado de la sección .text:
     32e6:	e8 8f 0a 00 00       	call   0x3d7a
     32eb:	83 ec 08             	sub    $0x8,%esp
     32ee:	68 fc 56 00 00       	push   $0x56fc
-    32f3:	ff 35 b8 61 00 00    	pushl  0x61b8
-    32f9:	e8 cd 0b 00 00       	call   0x3ecb
+    32f3:	ff 35 10 62 00 00    	push   0x6210
+    32f9:	e8 d1 0b 00 00       	call   0x3ecf
     32fe:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3305:	e8 70 0a 00 00       	call   0x3d7a
     330a:	83 ec 08             	sub    $0x8,%esp
     330d:	68 d1 4f 00 00       	push   $0x4fd1
-    3312:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3318:	e8 ae 0b 00 00       	call   0x3ecb
+    3312:	ff 35 10 62 00 00    	push   0x6210
+    3318:	e8 b2 0b 00 00       	call   0x3ecf
     331d:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3324:	e8 51 0a 00 00       	call   0x3d7a
     3329:	50                   	push   %eax
     332a:	53                   	push   %ebx
     332b:	68 3c 57 00 00       	push   $0x573c
-    3330:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3336:	e8 90 0b 00 00       	call   0x3ecb
+    3330:	ff 35 10 62 00 00    	push   0x6210
+    3336:	e8 94 0b 00 00       	call   0x3ecf
     333b:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3342:	e8 33 0a 00 00       	call   0x3d7a
     3347:	56                   	push   %esi
     3348:	53                   	push   %ebx
     3349:	68 74 57 00 00       	push   $0x5774
-    334e:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3354:	e8 72 0b 00 00       	call   0x3ecb
+    334e:	ff 35 10 62 00 00    	push   0x6210
+    3354:	e8 76 0b 00 00       	call   0x3ecf
     3359:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3360:	e8 15 0a 00 00       	call   0x3d7a
     3365:	83 ec 08             	sub    $0x8,%esp
     3368:	68 9c 57 00 00       	push   $0x579c
-    336d:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3373:	e8 53 0b 00 00       	call   0x3ecb
+    336d:	ff 35 10 62 00 00    	push   0x6210
+    3373:	e8 57 0b 00 00       	call   0x3ecf
     3378:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     337f:	e8 f6 09 00 00       	call   0x3d7a
     3384:	50                   	push   %eax
     3385:	53                   	push   %ebx
     3386:	68 cc 57 00 00       	push   $0x57cc
-    338b:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3391:	e8 35 0b 00 00       	call   0x3ecb
+    338b:	ff 35 10 62 00 00    	push   0x6210
+    3391:	e8 39 0b 00 00       	call   0x3ecf
     3396:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     339d:	e8 d8 09 00 00       	call   0x3d7a
     33a2:	83 ec 08             	sub    $0x8,%esp
     33a5:	68 c9 50 00 00       	push   $0x50c9
-    33aa:	ff 35 b8 61 00 00    	pushl  0x61b8
-    33b0:	e8 16 0b 00 00       	call   0x3ecb
+    33aa:	ff 35 10 62 00 00    	push   0x6210
+    33b0:	e8 1a 0b 00 00       	call   0x3ecf
     33b5:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     33bc:	e8 b9 09 00 00       	call   0x3d7a
     33c1:	0f be 03             	movsbl (%ebx),%eax
     33c4:	50                   	push   %eax
     33c5:	53                   	push   %ebx
     33c6:	68 ec 4f 00 00       	push   $0x4fec
-    33cb:	ff 35 b8 61 00 00    	pushl  0x61b8
-    33d1:	e8 f5 0a 00 00       	call   0x3ecb
+    33cb:	ff 35 10 62 00 00    	push   0x6210
+    33d1:	e8 f9 0a 00 00       	call   0x3ecf
     33d6:	89 34 24             	mov    %esi,(%esp)
     33d9:	e8 cc 09 00 00       	call   0x3daa
     33de:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
@@ -3586,7 +3586,7 @@ Desensamblado de la sección .text:
     3403:	83 ec 08             	sub    $0x8,%esp
     3406:	68 c1 44 00 00       	push   $0x44c1
     340b:	6a 01                	push   $0x1
-    340d:	e8 b9 0a 00 00       	call   0x3ecb
+    340d:	e8 bd 0a 00 00       	call   0x3ecf
     3412:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3419:	e8 5c 09 00 00       	call   0x3d7a
     341e:	83 ec 0c             	sub    $0xc,%esp
@@ -3600,7 +3600,7 @@ Desensamblado de la sección .text:
     3439:	83 c4 0c             	add    $0xc,%esp
     343c:	6a 01                	push   $0x1
     343e:	68 e1 4a 00 00       	push   $0x4ae1
-    3443:	ff 75 e4             	pushl  -0x1c(%ebp)
+    3443:	ff 75 e4             	push   -0x1c(%ebp)
     3446:	e8 4f 09 00 00       	call   0x3d9a
     344b:	83 c4 10             	add    $0x10,%esp
     344e:	83 ec 0c             	sub    $0xc,%esp
@@ -3621,7 +3621,7 @@ Desensamblado de la sección .text:
     347d:	6a 01                	push   $0x1
     347f:	8d 45 b7             	lea    -0x49(%ebp),%eax
     3482:	50                   	push   %eax
-    3483:	ff 75 e0             	pushl  -0x20(%ebp)
+    3483:	ff 75 e0             	push   -0x20(%ebp)
     3486:	e8 07 09 00 00       	call   0x3d92
     348b:	83 c4 10             	add    $0x10,%esp
     348e:	eb d0                	jmp    0x3460
@@ -3654,8 +3654,8 @@ Desensamblado de la sección .text:
     34e3:	72 3d                	jb     0x3522
     34e5:	83 ec 08             	sub    $0x8,%esp
     34e8:	68 20 50 00 00       	push   $0x5020
-    34ed:	ff 35 b8 61 00 00    	pushl  0x61b8
-    34f3:	e8 d3 09 00 00       	call   0x3ecb
+    34ed:	ff 35 10 62 00 00    	push   0x6210
+    34f3:	e8 d7 09 00 00       	call   0x3ecf
     34f8:	83 c4 10             	add    $0x10,%esp
     34fb:	8d 65 f4             	lea    -0xc(%ebp),%esp
     34fe:	5b                   	pop    %ebx
@@ -3665,8 +3665,8 @@ Desensamblado de la sección .text:
     3502:	c3                   	ret    
     3503:	83 ec 08             	sub    $0x8,%esp
     3506:	68 05 50 00 00       	push   $0x5005
-    350b:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3511:	e8 b5 09 00 00       	call   0x3ecb
+    350b:	ff 35 10 62 00 00    	push   0x6210
+    3511:	e8 b9 09 00 00       	call   0x3ecf
     3516:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     351d:	e8 58 08 00 00       	call   0x3d7a
     3522:	83 ec 0c             	sub    $0xc,%esp
@@ -3686,8 +3686,8 @@ Desensamblado de la sección .text:
     3548:	53                   	push   %ebx
     3549:	83 ec 08             	sub    $0x8,%esp
     354c:	68 2e 50 00 00       	push   $0x502e
-    3551:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3557:	e8 6f 09 00 00       	call   0x3ecb
+    3551:	ff 35 10 62 00 00    	push   0x6210
+    3557:	e8 73 09 00 00       	call   0x3ecf
     355c:	83 c4 10             	add    $0x10,%esp
     355f:	be 00 00 00 00       	mov    $0x0,%esi
     3564:	eb 10                	jmp    0x3576
@@ -3719,14 +3719,14 @@ Desensamblado de la sección .text:
     35c7:	74 a7                	je     0x3570
     35c9:	83 ec 08             	sub    $0x8,%esp
     35cc:	68 48 50 00 00       	push   $0x5048
-    35d1:	ff 35 b8 61 00 00    	pushl  0x61b8
-    35d7:	e8 ef 08 00 00       	call   0x3ecb
+    35d1:	ff 35 10 62 00 00    	push   0x6210
+    35d7:	e8 f3 08 00 00       	call   0x3ecf
     35dc:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     35e3:	e8 92 07 00 00       	call   0x3d7a
     35e8:	83 ec 08             	sub    $0x8,%esp
     35eb:	68 61 50 00 00       	push   $0x5061
-    35f0:	ff 35 b8 61 00 00    	pushl  0x61b8
-    35f6:	e8 d0 08 00 00       	call   0x3ecb
+    35f0:	ff 35 10 62 00 00    	push   0x6210
+    35f6:	e8 d4 08 00 00       	call   0x3ecf
     35fb:	83 c4 10             	add    $0x10,%esp
     35fe:	8d 65 f8             	lea    -0x8(%ebp),%esp
     3601:	5b                   	pop    %ebx
@@ -3738,26 +3738,26 @@ Desensamblado de la sección .text:
     360a:	89 e5                	mov    %esp,%ebp
     360c:	83 ec 10             	sub    $0x10,%esp
     360f:	68 6e 50 00 00       	push   $0x506e
-    3614:	ff 35 b8 61 00 00    	pushl  0x61b8
-    361a:	e8 ac 08 00 00       	call   0x3ecb
+    3614:	ff 35 10 62 00 00    	push   0x6210
+    361a:	e8 b0 08 00 00       	call   0x3ecf
     361f:	83 c4 10             	add    $0x10,%esp
     3622:	b8 00 00 00 00       	mov    $0x0,%eax
     3627:	3d 0f 27 00 00       	cmp    $0x270f,%eax
     362c:	77 2d                	ja     0x365b
-    362e:	80 b8 80 62 00 00 00 	cmpb   $0x0,0x6280(%eax)
+    362e:	80 b8 e0 62 00 00 00 	cmpb   $0x0,0x62e0(%eax)
     3635:	75 05                	jne    0x363c
     3637:	83 c0 01             	add    $0x1,%eax
     363a:	eb eb                	jmp    0x3627
     363c:	83 ec 08             	sub    $0x8,%esp
     363f:	68 78 50 00 00       	push   $0x5078
-    3644:	ff 35 b8 61 00 00    	pushl  0x61b8
-    364a:	e8 7c 08 00 00       	call   0x3ecb
+    3644:	ff 35 10 62 00 00    	push   0x6210
+    364a:	e8 80 08 00 00       	call   0x3ecf
     364f:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3656:	e8 1f 07 00 00       	call   0x3d7a
     365b:	83 ec 08             	sub    $0x8,%esp
     365e:	68 89 50 00 00       	push   $0x5089
-    3663:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3669:	e8 5d 08 00 00       	call   0x3ecb
+    3663:	ff 35 10 62 00 00    	push   0x6210
+    3669:	e8 61 08 00 00       	call   0x3ecf
     366e:	83 c4 10             	add    $0x10,%esp
     3671:	c9                   	leave  
     3672:	c3                   	ret    
@@ -3790,25 +3790,25 @@ Desensamblado de la sección .text:
     36d2:	83 c4 10             	add    $0x10,%esp
     36d5:	c9                   	leave  
     36d6:	c3                   	ret    
-    36d7:	c7 04 85 e0 61 00 00 	movl   $0x57f0,0x61e0(,%eax,4)
+    36d7:	c7 04 85 40 62 00 00 	movl   $0x57f0,0x6240(,%eax,4)
     36de:	f0 57 00 00 
     36e2:	83 c0 01             	add    $0x1,%eax
     36e5:	83 f8 1e             	cmp    $0x1e,%eax
     36e8:	7e ed                	jle    0x36d7
-    36ea:	c7 05 5c 62 00 00 00 	movl   $0x0,0x625c
+    36ea:	c7 05 bc 62 00 00 00 	movl   $0x0,0x62bc
     36f1:	00 00 00 
     36f4:	83 ec 08             	sub    $0x8,%esp
     36f7:	68 a0 50 00 00       	push   $0x50a0
-    36fc:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3702:	e8 c4 07 00 00       	call   0x3ecb
+    36fc:	ff 35 10 62 00 00    	push   0x6210
+    3702:	e8 c8 07 00 00       	call   0x3ecf
     3707:	83 c4 08             	add    $0x8,%esp
-    370a:	68 e0 61 00 00       	push   $0x61e0
+    370a:	68 40 62 00 00       	push   $0x6240
     370f:	68 6d 42 00 00       	push   $0x426d
     3714:	e8 99 06 00 00       	call   0x3db2
     3719:	83 c4 08             	add    $0x8,%esp
     371c:	68 ad 50 00 00       	push   $0x50ad
-    3721:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3727:	e8 9f 07 00 00       	call   0x3ecb
+    3721:	ff 35 10 62 00 00    	push   0x6210
+    3727:	e8 a3 07 00 00       	call   0x3ecf
     372c:	83 c4 08             	add    $0x8,%esp
     372f:	68 00 02 00 00       	push   $0x200
     3734:	68 96 50 00 00       	push   $0x5096
@@ -3819,14 +3819,14 @@ Desensamblado de la sección .text:
     374d:	e8 28 06 00 00       	call   0x3d7a
     3752:	83 ec 08             	sub    $0x8,%esp
     3755:	68 bd 50 00 00       	push   $0x50bd
-    375a:	ff 35 b8 61 00 00    	pushl  0x61b8
-    3760:	e8 66 07 00 00       	call   0x3ecb
+    375a:	ff 35 10 62 00 00    	push   0x6210
+    3760:	e8 6a 07 00 00       	call   0x3ecf
     3765:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     376c:	e8 09 06 00 00       	call   0x3d7a
     3771:	83 ec 08             	sub    $0x8,%esp
     3774:	68 d6 50 00 00       	push   $0x50d6
-    3779:	ff 35 b8 61 00 00    	pushl  0x61b8
-    377f:	e8 47 07 00 00       	call   0x3ecb
+    3779:	ff 35 10 62 00 00    	push   0x6210
+    377f:	e8 4b 07 00 00       	call   0x3ecf
     3784:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     378b:	e8 ea 05 00 00       	call   0x3d7a
     3790:	f3 0f 1e fb          	endbr32 
@@ -3838,7 +3838,7 @@ Desensamblado de la sección .text:
     379a:	83 ec 54             	sub    $0x54,%esp
     379d:	68 eb 50 00 00       	push   $0x50eb
     37a2:	6a 01                	push   $0x1
-    37a4:	e8 22 07 00 00       	call   0x3ecb
+    37a4:	e8 26 07 00 00       	call   0x3ecf
     37a9:	83 c4 10             	add    $0x10,%esp
     37ac:	bb 00 00 00 00       	mov    $0x0,%ebx
     37b1:	c6 45 a8 66          	movb   $0x66,-0x58(%ebp)
@@ -3894,7 +3894,7 @@ Desensamblado de la sección .text:
     383a:	56                   	push   %esi
     383b:	68 f8 50 00 00       	push   $0x50f8
     3840:	6a 01                	push   $0x1
-    3842:	e8 84 06 00 00       	call   0x3ecb
+    3842:	e8 88 06 00 00       	call   0x3ecf
     3847:	83 c4 08             	add    $0x8,%esp
     384a:	68 02 02 00 00       	push   $0x202
     384f:	56                   	push   %esi
@@ -3908,13 +3908,13 @@ Desensamblado de la sección .text:
     3864:	50                   	push   %eax
     3865:	68 04 51 00 00       	push   $0x5104
     386a:	6a 01                	push   $0x1
-    386c:	e8 5a 06 00 00       	call   0x3ecb
+    386c:	e8 5e 06 00 00       	call   0x3ecf
     3871:	83 c4 10             	add    $0x10,%esp
     3874:	e9 e6 00 00 00       	jmp    0x395f
     3879:	bf 00 00 00 00       	mov    $0x0,%edi
     387e:	83 ec 04             	sub    $0x4,%esp
     3881:	68 00 02 00 00       	push   $0x200
-    3886:	68 a0 89 00 00       	push   $0x89a0
+    3886:	68 00 8a 00 00       	push   $0x8a00
     388b:	56                   	push   %esi
     388c:	e8 09 05 00 00       	call   0x3d9a
     3891:	83 c4 10             	add    $0x10,%esp
@@ -3926,7 +3926,7 @@ Desensamblado de la sección .text:
     38a2:	57                   	push   %edi
     38a3:	68 14 51 00 00       	push   $0x5114
     38a8:	6a 01                	push   $0x1
-    38aa:	e8 1c 06 00 00       	call   0x3ecb
+    38aa:	e8 20 06 00 00       	call   0x3ecf
     38af:	89 34 24             	mov    %esi,(%esp)
     38b2:	e8 eb 04 00 00       	call   0x3da2
     38b7:	83 c4 10             	add    $0x10,%esp
@@ -3993,7 +3993,7 @@ Desensamblado de la sección .text:
     3967:	83 ec 08             	sub    $0x8,%esp
     396a:	68 24 51 00 00       	push   $0x5124
     396f:	6a 01                	push   $0x1
-    3971:	e8 55 05 00 00       	call   0x3ecb
+    3971:	e8 59 05 00 00       	call   0x3ecf
     3976:	83 c4 10             	add    $0x10,%esp
     3979:	8d 65 f4             	lea    -0xc(%ebp),%esp
     397c:	5b                   	pop    %ebx
@@ -4007,7 +4007,7 @@ Desensamblado de la sección .text:
     3988:	83 ec 10             	sub    $0x10,%esp
     398b:	68 3a 51 00 00       	push   $0x513a
     3990:	6a 01                	push   $0x1
-    3992:	e8 34 05 00 00       	call   0x3ecb
+    3992:	e8 38 05 00 00       	call   0x3ecf
     3997:	e8 d6 03 00 00       	call   0x3d72
     399c:	83 c4 10             	add    $0x10,%esp
     399f:	85 c0                	test   %eax,%eax
@@ -4019,7 +4019,7 @@ Desensamblado de la sección .text:
     39af:	83 c4 08             	add    $0x8,%esp
     39b2:	68 44 51 00 00       	push   $0x5144
     39b7:	6a 01                	push   $0x1
-    39b9:	e8 0d 05 00 00       	call   0x3ecb
+    39b9:	e8 11 05 00 00       	call   0x3ecf
     39be:	83 c4 10             	add    $0x10,%esp
     39c1:	c9                   	leave  
     39c2:	c3                   	ret    
@@ -4031,13 +4031,13 @@ Desensamblado de la sección .text:
     39d4:	83 ec 08             	sub    $0x8,%esp
     39d7:	68 d0 58 00 00       	push   $0x58d0
     39dc:	6a 01                	push   $0x1
-    39de:	e8 e8 04 00 00       	call   0x3ecb
+    39de:	e8 ec 04 00 00       	call   0x3ecf
     39e3:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     39ea:	e8 8b 03 00 00       	call   0x3d7a
     39ef:	83 ec 08             	sub    $0x8,%esp
     39f2:	68 c9 50 00 00       	push   $0x50c9
     39f7:	6a 01                	push   $0x1
-    39f9:	e8 cd 04 00 00       	call   0x3ecb
+    39f9:	e8 d1 04 00 00       	call   0x3ecf
     39fe:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3a05:	e8 70 03 00 00       	call   0x3d7a
     3a0a:	f3 0f 1e fb          	endbr32 
@@ -4066,7 +4066,7 @@ Desensamblado de la sección .text:
     3a4b:	83 c4 08             	add    $0x8,%esp
     3a4e:	68 65 51 00 00       	push   $0x5165
     3a53:	6a 01                	push   $0x1
-    3a55:	e8 71 04 00 00       	call   0x3ecb
+    3a55:	e8 75 04 00 00       	call   0x3ecf
     3a5a:	83 c4 10             	add    $0x10,%esp
     3a5d:	8b 5d fc             	mov    -0x4(%ebp),%ebx
     3a60:	c9                   	leave  
@@ -4074,26 +4074,26 @@ Desensamblado de la sección .text:
     3a62:	83 ec 08             	sub    $0x8,%esp
     3a65:	68 58 51 00 00       	push   $0x5158
     3a6a:	6a 02                	push   $0x2
-    3a6c:	e8 5a 04 00 00       	call   0x3ecb
+    3a6c:	e8 5e 04 00 00       	call   0x3ecf
     3a71:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3a78:	e8 fd 02 00 00       	call   0x3d7a
     3a7d:	f3 0f 1e fb          	endbr32 
-    3a81:	69 05 b4 61 00 00 0d 	imul   $0x19660d,0x61b4,%eax
+    3a81:	69 05 0c 62 00 00 0d 	imul   $0x19660d,0x620c,%eax
     3a88:	66 19 00 
     3a8b:	05 5f f3 6e 3c       	add    $0x3c6ef35f,%eax
-    3a90:	a3 b4 61 00 00       	mov    %eax,0x61b4
+    3a90:	a3 0c 62 00 00       	mov    %eax,0x620c
     3a95:	c3                   	ret    
     3a96:	f3 0f 1e fb          	endbr32 
     3a9a:	8d 4c 24 04          	lea    0x4(%esp),%ecx
     3a9e:	83 e4 f0             	and    $0xfffffff0,%esp
-    3aa1:	ff 71 fc             	pushl  -0x4(%ecx)
+    3aa1:	ff 71 fc             	push   -0x4(%ecx)
     3aa4:	55                   	push   %ebp
     3aa5:	89 e5                	mov    %esp,%ebp
     3aa7:	51                   	push   %ecx
     3aa8:	83 ec 0c             	sub    $0xc,%esp
     3aab:	68 76 51 00 00       	push   $0x5176
     3ab0:	6a 01                	push   $0x1
-    3ab2:	e8 14 04 00 00       	call   0x3ecb
+    3ab2:	e8 18 04 00 00       	call   0x3ecf
     3ab7:	83 c4 08             	add    $0x8,%esp
     3aba:	6a 00                	push   $0x0
     3abc:	68 8a 51 00 00       	push   $0x518a
@@ -4104,7 +4104,7 @@ Desensamblado de la sección .text:
     3acd:	83 ec 08             	sub    $0x8,%esp
     3ad0:	68 f4 58 00 00       	push   $0x58f4
     3ad5:	6a 01                	push   $0x1
-    3ad7:	e8 ef 03 00 00       	call   0x3ecb
+    3ad7:	e8 f3 03 00 00       	call   0x3ecf
     3adc:	c7 04 24 00 00 00 00 	movl   $0x0,(%esp)
     3ae3:	e8 92 02 00 00       	call   0x3d7a
     3ae8:	83 ec 08             	sub    $0x8,%esp
@@ -4275,14 +4275,14 @@ Desensamblado de la sección .text:
     3cd0:	53                   	push   %ebx
     3cd1:	83 ec 08             	sub    $0x8,%esp
     3cd4:	6a 00                	push   $0x0
-    3cd6:	ff 75 08             	pushl  0x8(%ebp)
+    3cd6:	ff 75 08             	push   0x8(%ebp)
     3cd9:	e8 dc 00 00 00       	call   0x3dba
     3cde:	83 c4 10             	add    $0x10,%esp
     3ce1:	85 c0                	test   %eax,%eax
     3ce3:	78 24                	js     0x3d09
     3ce5:	89 c3                	mov    %eax,%ebx
     3ce7:	83 ec 08             	sub    $0x8,%esp
-    3cea:	ff 75 0c             	pushl  0xc(%ebp)
+    3cea:	ff 75 0c             	push   0xc(%ebp)
     3ced:	50                   	push   %eax
     3cee:	e8 df 00 00 00       	call   0x3dd2
     3cf3:	89 c6                	mov    %eax,%esi
@@ -4428,49 +4428,50 @@ Desensamblado de la sección .text:
     3e49:	53                   	push   %ebx
     3e4a:	83 ec 2c             	sub    $0x2c,%esp
     3e4d:	89 45 d0             	mov    %eax,-0x30(%ebp)
-    3e50:	89 d6                	mov    %edx,%esi
-    3e52:	83 7d 08 00          	cmpl   $0x0,0x8(%ebp)
-    3e56:	0f 95 c2             	setne  %dl
-    3e59:	89 f0                	mov    %esi,%eax
-    3e5b:	c1 e8 1f             	shr    $0x1f,%eax
-    3e5e:	84 c2                	test   %al,%dl
-    3e60:	74 42                	je     0x3ea4
-    3e62:	f7 de                	neg    %esi
-    3e64:	c7 45 d4 01 00 00 00 	movl   $0x1,-0x2c(%ebp)
-    3e6b:	bb 00 00 00 00       	mov    $0x0,%ebx
-    3e70:	89 f0                	mov    %esi,%eax
-    3e72:	ba 00 00 00 00       	mov    $0x0,%edx
-    3e77:	f7 f1                	div    %ecx
-    3e79:	89 df                	mov    %ebx,%edi
-    3e7b:	83 c3 01             	add    $0x1,%ebx
-    3e7e:	0f b6 92 28 59 00 00 	movzbl 0x5928(%edx),%edx
-    3e85:	88 54 3d d8          	mov    %dl,-0x28(%ebp,%edi,1)
-    3e89:	89 f2                	mov    %esi,%edx
-    3e8b:	89 c6                	mov    %eax,%esi
-    3e8d:	39 d1                	cmp    %edx,%ecx
-    3e8f:	76 df                	jbe    0x3e70
-    3e91:	83 7d d4 00          	cmpl   $0x0,-0x2c(%ebp)
-    3e95:	74 2f                	je     0x3ec6
-    3e97:	c6 44 1d d8 2d       	movb   $0x2d,-0x28(%ebp,%ebx,1)
-    3e9c:	8d 5f 02             	lea    0x2(%edi),%ebx
-    3e9f:	8b 75 d0             	mov    -0x30(%ebp),%esi
-    3ea2:	eb 15                	jmp    0x3eb9
-    3ea4:	c7 45 d4 00 00 00 00 	movl   $0x0,-0x2c(%ebp)
-    3eab:	eb be                	jmp    0x3e6b
-    3ead:	0f be 54 1d d8       	movsbl -0x28(%ebp,%ebx,1),%edx
-    3eb2:	89 f0                	mov    %esi,%eax
-    3eb4:	e8 71 ff ff ff       	call   0x3e2a
-    3eb9:	83 eb 01             	sub    $0x1,%ebx
-    3ebc:	79 ef                	jns    0x3ead
-    3ebe:	83 c4 2c             	add    $0x2c,%esp
-    3ec1:	5b                   	pop    %ebx
-    3ec2:	5e                   	pop    %esi
-    3ec3:	5f                   	pop    %edi
-    3ec4:	5d                   	pop    %ebp
-    3ec5:	c3                   	ret    
-    3ec6:	8b 75 d0             	mov    -0x30(%ebp),%esi
-    3ec9:	eb ee                	jmp    0x3eb9
-    3ecb:	f3 0f 1e fb          	endbr32 
+    3e50:	89 d0                	mov    %edx,%eax
+    3e52:	89 ce                	mov    %ecx,%esi
+    3e54:	83 7d 08 00          	cmpl   $0x0,0x8(%ebp)
+    3e58:	0f 95 c1             	setne  %cl
+    3e5b:	c1 ea 1f             	shr    $0x1f,%edx
+    3e5e:	84 d1                	test   %dl,%cl
+    3e60:	74 44                	je     0x3ea6
+    3e62:	f7 d8                	neg    %eax
+    3e64:	89 c1                	mov    %eax,%ecx
+    3e66:	c7 45 d4 01 00 00 00 	movl   $0x1,-0x2c(%ebp)
+    3e6d:	bb 00 00 00 00       	mov    $0x0,%ebx
+    3e72:	89 c8                	mov    %ecx,%eax
+    3e74:	ba 00 00 00 00       	mov    $0x0,%edx
+    3e79:	f7 f6                	div    %esi
+    3e7b:	89 df                	mov    %ebx,%edi
+    3e7d:	83 c3 01             	add    $0x1,%ebx
+    3e80:	0f b6 92 80 59 00 00 	movzbl 0x5980(%edx),%edx
+    3e87:	88 54 3d d8          	mov    %dl,-0x28(%ebp,%edi,1)
+    3e8b:	89 ca                	mov    %ecx,%edx
+    3e8d:	89 c1                	mov    %eax,%ecx
+    3e8f:	39 d6                	cmp    %edx,%esi
+    3e91:	76 df                	jbe    0x3e72
+    3e93:	83 7d d4 00          	cmpl   $0x0,-0x2c(%ebp)
+    3e97:	74 31                	je     0x3eca
+    3e99:	c6 44 1d d8 2d       	movb   $0x2d,-0x28(%ebp,%ebx,1)
+    3e9e:	8d 5f 02             	lea    0x2(%edi),%ebx
+    3ea1:	8b 75 d0             	mov    -0x30(%ebp),%esi
+    3ea4:	eb 17                	jmp    0x3ebd
+    3ea6:	89 c1                	mov    %eax,%ecx
+    3ea8:	c7 45 d4 00 00 00 00 	movl   $0x0,-0x2c(%ebp)
+    3eaf:	eb bc                	jmp    0x3e6d
+    3eb1:	0f be 54 1d d8       	movsbl -0x28(%ebp,%ebx,1),%edx
+    3eb6:	89 f0                	mov    %esi,%eax
+    3eb8:	e8 6d ff ff ff       	call   0x3e2a
+    3ebd:	83 eb 01             	sub    $0x1,%ebx
+    3ec0:	79 ef                	jns    0x3eb1
+    3ec2:	83 c4 2c             	add    $0x2c,%esp
+    3ec5:	5b                   	pop    %ebx
+    3ec6:	5e                   	pop    %esi
+    3ec7:	5f                   	pop    %edi
+    3ec8:	5d                   	pop    %ebp
+    3ec9:	c3                   	ret    
+    3eca:	8b 75 d0             	mov    -0x30(%ebp),%esi
+    3ecd:	eb ee                	jmp    0x3ebd
     3ecf:	55                   	push   %ebp
     3ed0:	89 e5                	mov    %esp,%ebp
     3ed2:	57                   	push   %edi
@@ -4492,7 +4493,7 @@ Desensamblado de la sección .text:
     3efe:	8b 45 0c             	mov    0xc(%ebp),%eax
     3f01:	0f b6 04 18          	movzbl (%eax,%ebx,1),%eax
     3f05:	84 c0                	test   %al,%al
-    3f07:	0f 84 23 01 00 00    	je     0x4030
+    3f07:	0f 84 20 01 00 00    	je     0x402d
     3f0d:	0f be f8             	movsbl %al,%edi
     3f10:	0f b6 c0             	movzbl %al,%eax
     3f13:	85 f6                	test   %esi,%esi
@@ -4501,215 +4502,209 @@ Desensamblado de la sección .text:
     3f1a:	75 ce                	jne    0x3eea
     3f1c:	89 c6                	mov    %eax,%esi
     3f1e:	eb db                	jmp    0x3efb
-    3f20:	83 f8 64             	cmp    $0x64,%eax
-    3f23:	74 49                	je     0x3f6e
-    3f25:	83 f8 78             	cmp    $0x78,%eax
-    3f28:	0f 94 c1             	sete   %cl
-    3f2b:	83 f8 70             	cmp    $0x70,%eax
-    3f2e:	0f 94 c2             	sete   %dl
-    3f31:	08 d1                	or     %dl,%cl
-    3f33:	75 63                	jne    0x3f98
-    3f35:	83 f8 73             	cmp    $0x73,%eax
-    3f38:	0f 84 84 00 00 00    	je     0x3fc2
-    3f3e:	83 f8 63             	cmp    $0x63,%eax
-    3f41:	0f 84 b7 00 00 00    	je     0x3ffe
-    3f47:	83 f8 25             	cmp    $0x25,%eax
-    3f4a:	0f 84 cc 00 00 00    	je     0x401c
-    3f50:	ba 25 00 00 00       	mov    $0x25,%edx
-    3f55:	8b 45 08             	mov    0x8(%ebp),%eax
-    3f58:	e8 cd fe ff ff       	call   0x3e2a
-    3f5d:	89 fa                	mov    %edi,%edx
-    3f5f:	8b 45 08             	mov    0x8(%ebp),%eax
-    3f62:	e8 c3 fe ff ff       	call   0x3e2a
-    3f67:	be 00 00 00 00       	mov    $0x0,%esi
-    3f6c:	eb 8d                	jmp    0x3efb
-    3f6e:	8b 7d e4             	mov    -0x1c(%ebp),%edi
-    3f71:	8b 17                	mov    (%edi),%edx
-    3f73:	83 ec 0c             	sub    $0xc,%esp
-    3f76:	6a 01                	push   $0x1
-    3f78:	b9 0a 00 00 00       	mov    $0xa,%ecx
-    3f7d:	8b 45 08             	mov    0x8(%ebp),%eax
-    3f80:	e8 bf fe ff ff       	call   0x3e44
-    3f85:	83 c7 04             	add    $0x4,%edi
-    3f88:	89 7d e4             	mov    %edi,-0x1c(%ebp)
-    3f8b:	83 c4 10             	add    $0x10,%esp
-    3f8e:	be 00 00 00 00       	mov    $0x0,%esi
-    3f93:	e9 63 ff ff ff       	jmp    0x3efb
-    3f98:	8b 7d e4             	mov    -0x1c(%ebp),%edi
-    3f9b:	8b 17                	mov    (%edi),%edx
-    3f9d:	83 ec 0c             	sub    $0xc,%esp
-    3fa0:	6a 00                	push   $0x0
-    3fa2:	b9 10 00 00 00       	mov    $0x10,%ecx
-    3fa7:	8b 45 08             	mov    0x8(%ebp),%eax
-    3faa:	e8 95 fe ff ff       	call   0x3e44
-    3faf:	83 c7 04             	add    $0x4,%edi
-    3fb2:	89 7d e4             	mov    %edi,-0x1c(%ebp)
-    3fb5:	83 c4 10             	add    $0x10,%esp
-    3fb8:	be 00 00 00 00       	mov    $0x0,%esi
-    3fbd:	e9 39 ff ff ff       	jmp    0x3efb
-    3fc2:	8b 45 e4             	mov    -0x1c(%ebp),%eax
-    3fc5:	8b 30                	mov    (%eax),%esi
-    3fc7:	83 c0 04             	add    $0x4,%eax
-    3fca:	89 45 e4             	mov    %eax,-0x1c(%ebp)
-    3fcd:	85 f6                	test   %esi,%esi
-    3fcf:	75 28                	jne    0x3ff9
-    3fd1:	be 1e 59 00 00       	mov    $0x591e,%esi
-    3fd6:	8b 7d 08             	mov    0x8(%ebp),%edi
-    3fd9:	eb 0d                	jmp    0x3fe8
-    3fdb:	0f be d2             	movsbl %dl,%edx
-    3fde:	89 f8                	mov    %edi,%eax
-    3fe0:	e8 45 fe ff ff       	call   0x3e2a
-    3fe5:	83 c6 01             	add    $0x1,%esi
-    3fe8:	0f b6 16             	movzbl (%esi),%edx
-    3feb:	84 d2                	test   %dl,%dl
-    3fed:	75 ec                	jne    0x3fdb
-    3fef:	be 00 00 00 00       	mov    $0x0,%esi
-    3ff4:	e9 02 ff ff ff       	jmp    0x3efb
-    3ff9:	8b 7d 08             	mov    0x8(%ebp),%edi
-    3ffc:	eb ea                	jmp    0x3fe8
-    3ffe:	8b 7d e4             	mov    -0x1c(%ebp),%edi
-    4001:	0f be 17             	movsbl (%edi),%edx
-    4004:	8b 45 08             	mov    0x8(%ebp),%eax
-    4007:	e8 1e fe ff ff       	call   0x3e2a
-    400c:	83 c7 04             	add    $0x4,%edi
-    400f:	89 7d e4             	mov    %edi,-0x1c(%ebp)
-    4012:	be 00 00 00 00       	mov    $0x0,%esi
-    4017:	e9 df fe ff ff       	jmp    0x3efb
-    401c:	89 fa                	mov    %edi,%edx
-    401e:	8b 45 08             	mov    0x8(%ebp),%eax
-    4021:	e8 04 fe ff ff       	call   0x3e2a
-    4026:	be 00 00 00 00       	mov    $0x0,%esi
-    402b:	e9 cb fe ff ff       	jmp    0x3efb
-    4030:	8d 65 f4             	lea    -0xc(%ebp),%esp
-    4033:	5b                   	pop    %ebx
-    4034:	5e                   	pop    %esi
-    4035:	5f                   	pop    %edi
-    4036:	5d                   	pop    %ebp
-    4037:	c3                   	ret    
-    4038:	f3 0f 1e fb          	endbr32 
-    403c:	55                   	push   %ebp
-    403d:	89 e5                	mov    %esp,%ebp
-    403f:	57                   	push   %edi
-    4040:	56                   	push   %esi
-    4041:	53                   	push   %ebx
-    4042:	8b 5d 08             	mov    0x8(%ebp),%ebx
-    4045:	8d 4b f8             	lea    -0x8(%ebx),%ecx
-    4048:	a1 60 62 00 00       	mov    0x6260,%eax
-    404d:	eb 02                	jmp    0x4051
-    404f:	89 d0                	mov    %edx,%eax
-    4051:	39 c8                	cmp    %ecx,%eax
-    4053:	73 04                	jae    0x4059
-    4055:	39 08                	cmp    %ecx,(%eax)
-    4057:	77 12                	ja     0x406b
-    4059:	8b 10                	mov    (%eax),%edx
-    405b:	39 c2                	cmp    %eax,%edx
-    405d:	77 f0                	ja     0x404f
-    405f:	39 c8                	cmp    %ecx,%eax
-    4061:	72 08                	jb     0x406b
-    4063:	39 ca                	cmp    %ecx,%edx
-    4065:	77 04                	ja     0x406b
-    4067:	89 d0                	mov    %edx,%eax
-    4069:	eb e6                	jmp    0x4051
-    406b:	8b 73 fc             	mov    -0x4(%ebx),%esi
-    406e:	8d 3c f1             	lea    (%ecx,%esi,8),%edi
-    4071:	8b 10                	mov    (%eax),%edx
-    4073:	39 d7                	cmp    %edx,%edi
-    4075:	74 19                	je     0x4090
-    4077:	89 53 f8             	mov    %edx,-0x8(%ebx)
-    407a:	8b 50 04             	mov    0x4(%eax),%edx
-    407d:	8d 34 d0             	lea    (%eax,%edx,8),%esi
-    4080:	39 ce                	cmp    %ecx,%esi
-    4082:	74 1b                	je     0x409f
-    4084:	89 08                	mov    %ecx,(%eax)
-    4086:	a3 60 62 00 00       	mov    %eax,0x6260
-    408b:	5b                   	pop    %ebx
-    408c:	5e                   	pop    %esi
-    408d:	5f                   	pop    %edi
-    408e:	5d                   	pop    %ebp
-    408f:	c3                   	ret    
-    4090:	03 72 04             	add    0x4(%edx),%esi
-    4093:	89 73 fc             	mov    %esi,-0x4(%ebx)
-    4096:	8b 10                	mov    (%eax),%edx
-    4098:	8b 12                	mov    (%edx),%edx
-    409a:	89 53 f8             	mov    %edx,-0x8(%ebx)
-    409d:	eb db                	jmp    0x407a
-    409f:	03 53 fc             	add    -0x4(%ebx),%edx
-    40a2:	89 50 04             	mov    %edx,0x4(%eax)
-    40a5:	8b 53 f8             	mov    -0x8(%ebx),%edx
-    40a8:	89 10                	mov    %edx,(%eax)
-    40aa:	eb da                	jmp    0x4086
-    40ac:	55                   	push   %ebp
-    40ad:	89 e5                	mov    %esp,%ebp
-    40af:	53                   	push   %ebx
-    40b0:	83 ec 04             	sub    $0x4,%esp
-    40b3:	89 c3                	mov    %eax,%ebx
-    40b5:	3d ff 0f 00 00       	cmp    $0xfff,%eax
-    40ba:	77 05                	ja     0x40c1
-    40bc:	bb 00 10 00 00       	mov    $0x1000,%ebx
-    40c1:	8d 04 dd 00 00 00 00 	lea    0x0(,%ebx,8),%eax
-    40c8:	83 ec 0c             	sub    $0xc,%esp
-    40cb:	50                   	push   %eax
-    40cc:	e8 31 fd ff ff       	call   0x3e02
-    40d1:	83 c4 10             	add    $0x10,%esp
-    40d4:	83 f8 ff             	cmp    $0xffffffff,%eax
-    40d7:	74 1c                	je     0x40f5
-    40d9:	89 58 04             	mov    %ebx,0x4(%eax)
-    40dc:	83 c0 08             	add    $0x8,%eax
-    40df:	83 ec 0c             	sub    $0xc,%esp
-    40e2:	50                   	push   %eax
-    40e3:	e8 50 ff ff ff       	call   0x4038
-    40e8:	a1 60 62 00 00       	mov    0x6260,%eax
-    40ed:	83 c4 10             	add    $0x10,%esp
-    40f0:	8b 5d fc             	mov    -0x4(%ebp),%ebx
-    40f3:	c9                   	leave  
-    40f4:	c3                   	ret    
-    40f5:	b8 00 00 00 00       	mov    $0x0,%eax
-    40fa:	eb f4                	jmp    0x40f0
-    40fc:	f3 0f 1e fb          	endbr32 
-    4100:	55                   	push   %ebp
-    4101:	89 e5                	mov    %esp,%ebp
-    4103:	53                   	push   %ebx
-    4104:	83 ec 04             	sub    $0x4,%esp
-    4107:	8b 45 08             	mov    0x8(%ebp),%eax
-    410a:	8d 58 07             	lea    0x7(%eax),%ebx
-    410d:	c1 eb 03             	shr    $0x3,%ebx
-    4110:	83 c3 01             	add    $0x1,%ebx
-    4113:	8b 0d 60 62 00 00    	mov    0x6260,%ecx
-    4119:	85 c9                	test   %ecx,%ecx
-    411b:	74 04                	je     0x4121
-    411d:	8b 01                	mov    (%ecx),%eax
-    411f:	eb 4b                	jmp    0x416c
-    4121:	c7 05 60 62 00 00 64 	movl   $0x6264,0x6260
-    4128:	62 00 00 
-    412b:	c7 05 64 62 00 00 64 	movl   $0x6264,0x6264
-    4132:	62 00 00 
-    4135:	c7 05 68 62 00 00 00 	movl   $0x0,0x6268
-    413c:	00 00 00 
-    413f:	b9 64 62 00 00       	mov    $0x6264,%ecx
-    4144:	eb d7                	jmp    0x411d
-    4146:	74 1a                	je     0x4162
-    4148:	29 da                	sub    %ebx,%edx
-    414a:	89 50 04             	mov    %edx,0x4(%eax)
-    414d:	8d 04 d0             	lea    (%eax,%edx,8),%eax
-    4150:	89 58 04             	mov    %ebx,0x4(%eax)
-    4153:	89 0d 60 62 00 00    	mov    %ecx,0x6260
-    4159:	83 c0 08             	add    $0x8,%eax
-    415c:	83 c4 04             	add    $0x4,%esp
-    415f:	5b                   	pop    %ebx
-    4160:	5d                   	pop    %ebp
-    4161:	c3                   	ret    
-    4162:	8b 10                	mov    (%eax),%edx
-    4164:	89 11                	mov    %edx,(%ecx)
-    4166:	eb eb                	jmp    0x4153
-    4168:	89 c1                	mov    %eax,%ecx
-    416a:	8b 00                	mov    (%eax),%eax
-    416c:	8b 50 04             	mov    0x4(%eax),%edx
-    416f:	39 da                	cmp    %ebx,%edx
-    4171:	73 d3                	jae    0x4146
-    4173:	39 05 60 62 00 00    	cmp    %eax,0x6260
-    4179:	75 ed                	jne    0x4168
-    417b:	89 d8                	mov    %ebx,%eax
-    417d:	e8 2a ff ff ff       	call   0x40ac
-    4182:	85 c0                	test   %eax,%eax
-    4184:	75 e2                	jne    0x4168
-    4186:	eb d4                	jmp    0x415c
+    3f20:	83 f8 25             	cmp    $0x25,%eax
+    3f23:	0f 84 cf 00 00 00    	je     0x3ff8
+    3f29:	0f 8c dd 00 00 00    	jl     0x400c
+    3f2f:	83 f8 78             	cmp    $0x78,%eax
+    3f32:	0f 8f d4 00 00 00    	jg     0x400c
+    3f38:	83 f8 63             	cmp    $0x63,%eax
+    3f3b:	0f 8c cb 00 00 00    	jl     0x400c
+    3f41:	83 e8 63             	sub    $0x63,%eax
+    3f44:	83 f8 15             	cmp    $0x15,%eax
+    3f47:	0f 87 bf 00 00 00    	ja     0x400c
+    3f4d:	ff 24 85 28 59 00 00 	jmp    *0x5928(,%eax,4)
+    3f54:	8b 7d e4             	mov    -0x1c(%ebp),%edi
+    3f57:	8b 17                	mov    (%edi),%edx
+    3f59:	83 ec 0c             	sub    $0xc,%esp
+    3f5c:	6a 01                	push   $0x1
+    3f5e:	b9 0a 00 00 00       	mov    $0xa,%ecx
+    3f63:	8b 45 08             	mov    0x8(%ebp),%eax
+    3f66:	e8 d9 fe ff ff       	call   0x3e44
+    3f6b:	83 c7 04             	add    $0x4,%edi
+    3f6e:	89 7d e4             	mov    %edi,-0x1c(%ebp)
+    3f71:	83 c4 10             	add    $0x10,%esp
+    3f74:	be 00 00 00 00       	mov    $0x0,%esi
+    3f79:	eb 80                	jmp    0x3efb
+    3f7b:	8b 7d e4             	mov    -0x1c(%ebp),%edi
+    3f7e:	8b 17                	mov    (%edi),%edx
+    3f80:	83 ec 0c             	sub    $0xc,%esp
+    3f83:	6a 00                	push   $0x0
+    3f85:	b9 10 00 00 00       	mov    $0x10,%ecx
+    3f8a:	8b 45 08             	mov    0x8(%ebp),%eax
+    3f8d:	e8 b2 fe ff ff       	call   0x3e44
+    3f92:	83 c7 04             	add    $0x4,%edi
+    3f95:	89 7d e4             	mov    %edi,-0x1c(%ebp)
+    3f98:	83 c4 10             	add    $0x10,%esp
+    3f9b:	be 00 00 00 00       	mov    $0x0,%esi
+    3fa0:	e9 56 ff ff ff       	jmp    0x3efb
+    3fa5:	8b 45 e4             	mov    -0x1c(%ebp),%eax
+    3fa8:	8b 30                	mov    (%eax),%esi
+    3faa:	83 c0 04             	add    $0x4,%eax
+    3fad:	89 45 e4             	mov    %eax,-0x1c(%ebp)
+    3fb0:	85 f6                	test   %esi,%esi
+    3fb2:	75 15                	jne    0x3fc9
+    3fb4:	be 1e 59 00 00       	mov    $0x591e,%esi
+    3fb9:	eb 0e                	jmp    0x3fc9
+    3fbb:	0f be d2             	movsbl %dl,%edx
+    3fbe:	8b 45 08             	mov    0x8(%ebp),%eax
+    3fc1:	e8 64 fe ff ff       	call   0x3e2a
+    3fc6:	83 c6 01             	add    $0x1,%esi
+    3fc9:	0f b6 16             	movzbl (%esi),%edx
+    3fcc:	84 d2                	test   %dl,%dl
+    3fce:	75 eb                	jne    0x3fbb
+    3fd0:	be 00 00 00 00       	mov    $0x0,%esi
+    3fd5:	e9 21 ff ff ff       	jmp    0x3efb
+    3fda:	8b 7d e4             	mov    -0x1c(%ebp),%edi
+    3fdd:	0f be 17             	movsbl (%edi),%edx
+    3fe0:	8b 45 08             	mov    0x8(%ebp),%eax
+    3fe3:	e8 42 fe ff ff       	call   0x3e2a
+    3fe8:	83 c7 04             	add    $0x4,%edi
+    3feb:	89 7d e4             	mov    %edi,-0x1c(%ebp)
+    3fee:	be 00 00 00 00       	mov    $0x0,%esi
+    3ff3:	e9 03 ff ff ff       	jmp    0x3efb
+    3ff8:	89 fa                	mov    %edi,%edx
+    3ffa:	8b 45 08             	mov    0x8(%ebp),%eax
+    3ffd:	e8 28 fe ff ff       	call   0x3e2a
+    4002:	be 00 00 00 00       	mov    $0x0,%esi
+    4007:	e9 ef fe ff ff       	jmp    0x3efb
+    400c:	ba 25 00 00 00       	mov    $0x25,%edx
+    4011:	8b 45 08             	mov    0x8(%ebp),%eax
+    4014:	e8 11 fe ff ff       	call   0x3e2a
+    4019:	89 fa                	mov    %edi,%edx
+    401b:	8b 45 08             	mov    0x8(%ebp),%eax
+    401e:	e8 07 fe ff ff       	call   0x3e2a
+    4023:	be 00 00 00 00       	mov    $0x0,%esi
+    4028:	e9 ce fe ff ff       	jmp    0x3efb
+    402d:	8d 65 f4             	lea    -0xc(%ebp),%esp
+    4030:	5b                   	pop    %ebx
+    4031:	5e                   	pop    %esi
+    4032:	5f                   	pop    %edi
+    4033:	5d                   	pop    %ebp
+    4034:	c3                   	ret    
+    4035:	f3 0f 1e fb          	endbr32 
+    4039:	55                   	push   %ebp
+    403a:	89 e5                	mov    %esp,%ebp
+    403c:	57                   	push   %edi
+    403d:	56                   	push   %esi
+    403e:	53                   	push   %ebx
+    403f:	8b 5d 08             	mov    0x8(%ebp),%ebx
+    4042:	8d 4b f8             	lea    -0x8(%ebx),%ecx
+    4045:	a1 c0 62 00 00       	mov    0x62c0,%eax
+    404a:	eb 02                	jmp    0x404e
+    404c:	89 d0                	mov    %edx,%eax
+    404e:	39 c8                	cmp    %ecx,%eax
+    4050:	73 04                	jae    0x4056
+    4052:	39 08                	cmp    %ecx,(%eax)
+    4054:	77 12                	ja     0x4068
+    4056:	8b 10                	mov    (%eax),%edx
+    4058:	39 c2                	cmp    %eax,%edx
+    405a:	77 f0                	ja     0x404c
+    405c:	39 c8                	cmp    %ecx,%eax
+    405e:	72 08                	jb     0x4068
+    4060:	39 ca                	cmp    %ecx,%edx
+    4062:	77 04                	ja     0x4068
+    4064:	89 d0                	mov    %edx,%eax
+    4066:	eb e6                	jmp    0x404e
+    4068:	8b 73 fc             	mov    -0x4(%ebx),%esi
+    406b:	8d 3c f1             	lea    (%ecx,%esi,8),%edi
+    406e:	8b 10                	mov    (%eax),%edx
+    4070:	39 d7                	cmp    %edx,%edi
+    4072:	74 19                	je     0x408d
+    4074:	89 53 f8             	mov    %edx,-0x8(%ebx)
+    4077:	8b 50 04             	mov    0x4(%eax),%edx
+    407a:	8d 34 d0             	lea    (%eax,%edx,8),%esi
+    407d:	39 ce                	cmp    %ecx,%esi
+    407f:	74 1b                	je     0x409c
+    4081:	89 08                	mov    %ecx,(%eax)
+    4083:	a3 c0 62 00 00       	mov    %eax,0x62c0
+    4088:	5b                   	pop    %ebx
+    4089:	5e                   	pop    %esi
+    408a:	5f                   	pop    %edi
+    408b:	5d                   	pop    %ebp
+    408c:	c3                   	ret    
+    408d:	03 72 04             	add    0x4(%edx),%esi
+    4090:	89 73 fc             	mov    %esi,-0x4(%ebx)
+    4093:	8b 10                	mov    (%eax),%edx
+    4095:	8b 12                	mov    (%edx),%edx
+    4097:	89 53 f8             	mov    %edx,-0x8(%ebx)
+    409a:	eb db                	jmp    0x4077
+    409c:	03 53 fc             	add    -0x4(%ebx),%edx
+    409f:	89 50 04             	mov    %edx,0x4(%eax)
+    40a2:	8b 53 f8             	mov    -0x8(%ebx),%edx
+    40a5:	89 10                	mov    %edx,(%eax)
+    40a7:	eb da                	jmp    0x4083
+    40a9:	55                   	push   %ebp
+    40aa:	89 e5                	mov    %esp,%ebp
+    40ac:	53                   	push   %ebx
+    40ad:	83 ec 04             	sub    $0x4,%esp
+    40b0:	89 c3                	mov    %eax,%ebx
+    40b2:	3d ff 0f 00 00       	cmp    $0xfff,%eax
+    40b7:	77 05                	ja     0x40be
+    40b9:	bb 00 10 00 00       	mov    $0x1000,%ebx
+    40be:	8d 04 dd 00 00 00 00 	lea    0x0(,%ebx,8),%eax
+    40c5:	83 ec 0c             	sub    $0xc,%esp
+    40c8:	50                   	push   %eax
+    40c9:	e8 34 fd ff ff       	call   0x3e02
+    40ce:	83 c4 10             	add    $0x10,%esp
+    40d1:	83 f8 ff             	cmp    $0xffffffff,%eax
+    40d4:	74 1c                	je     0x40f2
+    40d6:	89 58 04             	mov    %ebx,0x4(%eax)
+    40d9:	83 c0 08             	add    $0x8,%eax
+    40dc:	83 ec 0c             	sub    $0xc,%esp
+    40df:	50                   	push   %eax
+    40e0:	e8 50 ff ff ff       	call   0x4035
+    40e5:	a1 c0 62 00 00       	mov    0x62c0,%eax
+    40ea:	83 c4 10             	add    $0x10,%esp
+    40ed:	8b 5d fc             	mov    -0x4(%ebp),%ebx
+    40f0:	c9                   	leave  
+    40f1:	c3                   	ret    
+    40f2:	b8 00 00 00 00       	mov    $0x0,%eax
+    40f7:	eb f4                	jmp    0x40ed
+    40f9:	f3 0f 1e fb          	endbr32 
+    40fd:	55                   	push   %ebp
+    40fe:	89 e5                	mov    %esp,%ebp
+    4100:	53                   	push   %ebx
+    4101:	83 ec 04             	sub    $0x4,%esp
+    4104:	8b 45 08             	mov    0x8(%ebp),%eax
+    4107:	8d 58 07             	lea    0x7(%eax),%ebx
+    410a:	c1 eb 03             	shr    $0x3,%ebx
+    410d:	83 c3 01             	add    $0x1,%ebx
+    4110:	8b 0d c0 62 00 00    	mov    0x62c0,%ecx
+    4116:	85 c9                	test   %ecx,%ecx
+    4118:	74 04                	je     0x411e
+    411a:	8b 01                	mov    (%ecx),%eax
+    411c:	eb 4b                	jmp    0x4169
+    411e:	c7 05 c0 62 00 00 c4 	movl   $0x62c4,0x62c0
+    4125:	62 00 00 
+    4128:	c7 05 c4 62 00 00 c4 	movl   $0x62c4,0x62c4
+    412f:	62 00 00 
+    4132:	c7 05 c8 62 00 00 00 	movl   $0x0,0x62c8
+    4139:	00 00 00 
+    413c:	b9 c4 62 00 00       	mov    $0x62c4,%ecx
+    4141:	eb d7                	jmp    0x411a
+    4143:	74 1a                	je     0x415f
+    4145:	29 da                	sub    %ebx,%edx
+    4147:	89 50 04             	mov    %edx,0x4(%eax)
+    414a:	8d 04 d0             	lea    (%eax,%edx,8),%eax
+    414d:	89 58 04             	mov    %ebx,0x4(%eax)
+    4150:	89 0d c0 62 00 00    	mov    %ecx,0x62c0
+    4156:	83 c0 08             	add    $0x8,%eax
+    4159:	83 c4 04             	add    $0x4,%esp
+    415c:	5b                   	pop    %ebx
+    415d:	5d                   	pop    %ebp
+    415e:	c3                   	ret    
+    415f:	8b 10                	mov    (%eax),%edx
+    4161:	89 11                	mov    %edx,(%ecx)
+    4163:	eb eb                	jmp    0x4150
+    4165:	89 c1                	mov    %eax,%ecx
+    4167:	8b 00                	mov    (%eax),%eax
+    4169:	8b 50 04             	mov    0x4(%eax),%edx
+    416c:	39 da                	cmp    %ebx,%edx
+    416e:	73 d3                	jae    0x4143
+    4170:	39 05 c0 62 00 00    	cmp    %eax,0x62c0
+    4176:	75 ed                	jne    0x4165
+    4178:	89 d8                	mov    %ebx,%eax
+    417a:	e8 2a ff ff ff       	call   0x40a9
+    417f:	85 c0                	test   %eax,%eax
+    4181:	75 e2                	jne    0x4165
+    4183:	eb d4                	jmp    0x4159

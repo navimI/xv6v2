@@ -17,6 +17,7 @@ int sys_exit(void)
   int status;
   if (argint(0, &status)<0)
     return -1;
+  status <<= 8;
   exit(status);
   return 0; // not reached
 }
